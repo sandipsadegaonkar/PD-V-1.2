@@ -57,7 +57,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
         <table border="0" width="100%" height="100%" cellspacing="0px" cellpadding="0px">
             <tr align="right">
                 <td width="60%">
-                    <span style="font-style:bold ; font-size: 25; font-family: sans-serif;"><?=$username?>&nbsp;</span><img src="../images/User.png" style="width: 30px; height: 35px;padding-bottom: 0px"/>
+                    <span style=" font-size: 25px; font-family: sans-serif;"><?=$username?>&nbsp;</span><img src="../images/User.png" style="width: 30px; height: 35px;padding-bottom: 0px"/>
                 </td>
                 <td width="40%" >
                    <span class='button_img' id='logout' style="border-radius: 5px;cursor: pointer;" align="right">Logout</span>
@@ -87,12 +87,13 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                          <td>  
                              <div class="sp" style="width:10px;height: 20px;cursor: pointer;">+</div>
                          </td>
-                             <td style="width: 100%;cursor: pointer">
+                             <td width="90%" style="cursor: pointer">
                                  <span>Notification</span>
                             </td>
-                            <td>
-                                <div class="notification_img" style="width:20px;height:22px; border: 1px solid;color: red" >
-                                  </div>
+                            <td align="right">
+                                <div class="notification_img" style="width:20px;height:22px; border: 1px solid; color: dodgerblue; border-radius: 5px; margin-top: -5px; margin-right: -5px;color: #ffffff" >
+                                    3
+                                </div>
                             </td>
                       </tr>
 
@@ -100,7 +101,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
        </div>
         <div class="noti1 "style="width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px;display: none"> 
                  <div id="NCA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
-                   <span > Client Approval</span>      
+                   <span > Client Approval</span>                   
                  </div>
             <div id="NSA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
                    <span > Store Approval</span>      
@@ -123,10 +124,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                      <td style="width: 100%;cursor: pointer;">
                          <span>Catalog</span>
                      </td>
-                     <td>
+<!--                     <td>
                           <div style="width:20px;height:22px; border: 1px solid;color: red">
                                   </div>
-                     </td>
+                     </td>-->
                 </tr>
              </table>
        </div>
@@ -159,10 +160,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                           <td style="width: 100%;cursor: pointer;">
                              <span>Store</span>
                           </td>
-                           <td>
+<!--                           <td>
                                 <div style="width:20px;height:22px; border: 1px solid;color: red">
                                  </div>
-                           </td>
+                           </td>-->
                       </tr>
               </table>
        </div>
@@ -189,10 +190,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                          <td style="width: 100%;cursor: pointer;">
                               <span>System </span>
                          </td>
-                         <td>
+<!--                         <td>
                                <div style="width:20px;height:22px; border: 1px solid;color: red">
                                </div>
-                        </td>
+                        </td>-->
                    </tr>
            </table>
        </div>
@@ -213,10 +214,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                     <td style="width: 100%;cursor: pointer;">
                          <span> Static content </span>
                     </td>
-                    <td>
+<!--                    <td>
                         <div style="width:20px; height:22px; border:1px solid;color: red ">
                         </div>
-                         </td>
+                         </td>-->
                 </tr>
            </table>
        </div>
@@ -252,10 +253,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                         <td style="width: 100%;cursor: pointer;">
                             <span>Utility</span>
                         </td>
-                         <td>
+<!--                         <td>
                               <div style="width:20px;height:22px; border: 1px solid;color: red">
                                </div>
-                        </td>
+                        </td>-->
                 </tr>
            </table>
        </div>

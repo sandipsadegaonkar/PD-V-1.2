@@ -13,13 +13,13 @@
     </head>
     <body>
      <br/>
-     <div class="db_bck" style="text-align: center;margin-left: 10px;box-shadow: 4px 4px 5px #000000;background-color:; font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Take Database Backup</div>
+     <div class="db_bck" style="text-align: center;margin-left: 10px;box-shadow: 1px 2px 3px #000000;background-color:#ffffff; font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Take Database Backup</div>
     <br/>
     <br/>
-    <div class="db_bck_his" style="text-align: center;margin-left: 10px;box-shadow: 4px 4px 5px #000000;background-color: #ee9611;; font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Database Backup History</div>
+    <div class="db_bck_his" style="text-align: center;margin-left: 10px;box-shadow: 1px 2px 3px #000000;background-color: #ffffff;font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Database Backup History</div>
     <br/>
     <div class="db_bck_his_show" style="margin-left: 10px;">
-            <table border="1" style="width:auto;height:auto;">
+            <table border="1" style="width:700px;height:auto;">
                 <tr>
                     <th style="width:70px;">
                         Sr. No
@@ -43,17 +43,64 @@
                 
                 <tr>
                     <td>
+                           1
                     </td>
                     <td>
+                        pd_17-1-2014_3:31
                     </td>
-                    <td>
-                        
+                    <td>                        
+                        17-1-2014
                     </td>                    
                     <td>
+                        3:31
                     </td>                    
                     <td>
+                        <a href="#">Delete</a>
                     </td>                    
+                    <td>
+                        <a href="#">Download</a>
+                    </td>                                        
                 </tr>
+                <tr>
+                    <td>
+                           2
+                    </td>
+                    <td>
+                        pd_17-1-2014_3:31
+                    </td>
+                    <td>                        
+                        17-1-2014
+                    </td>                    
+                    <td>
+                        3:31
+                    </td>                    
+                    <td>
+                        <a href="#">Delete</a>
+                    </td>                    
+                    <td>
+                        <a href="#">Download</a>
+                    </td>                                        
+                </tr>                
+                <tr>
+                    <td>
+                           3
+                    </td>
+                    <td>
+                        pd_17-1-2014_3:31
+                    </td>
+                    <td>                        
+                        17-1-2014
+                    </td>                    
+                    <td>
+                        3:31
+                    </td>                    
+                    <td>
+                        <a href="#">Delete</a>
+                    </td>                    
+                    <td>
+                        <a href="#">Download</a>
+                    </td>                                        
+                </tr>                                
             </table>
            </div>       
     </body>
