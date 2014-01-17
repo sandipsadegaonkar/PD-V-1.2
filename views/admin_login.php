@@ -84,7 +84,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
                             <input type="text" placeholder="Email" id='email' class="home_text" style="width: 200px"/>
                         </td>
                         <td>
-                            <div class='button_img' id='ok' style="border-radius: 5px;cursor: pointer;">Submit</div>
+                            <div class='button_img' id="ok" style="border-radius: 5px;cursor: pointer;">Submit</div>
                         </td>
                     </tr>
                     

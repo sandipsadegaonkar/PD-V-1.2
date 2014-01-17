@@ -54,4 +54,26 @@
     width: 800px;
 }
 
+.notification_img
+{
+    margin-left: 10px;
+    background-color: dodgerblue;
+    width:20px;
+    float:left;
+    height:22px;
+    color:#000000;
+    font-size:17px;
+    font-style:normal;
+    text-align: center;
+    padding-top:5px;
+    font-family:Calibri; 
+    box-shadow: 4px 4px 5px #000000;
+    opacity:0.8;
+}
+.notification_img:hover
+{
+    cursor: pointer;
+    opacity:1;   
+    
+}
 

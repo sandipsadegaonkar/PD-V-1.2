@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
                         $('#login').click(function(){
                         var user=$('#user').val();
@@ -67,22 +68,22 @@ $(document).ready(function(){
             $('#ok').click(function(){
                         var email=$('#email').val();
                         $.ajax({
-                            url:'../controllers/forget.php',
+                            url:'controllers/forget.php',
                             type:'GET',
                             data:{email:email},
                             success:function(data){
-                                alert(data);
-                                $(".f").text("Please cheack your regesterd email for username & password.");
+//                                alert(data);
+//                                $(".f").text("Please cheack your regesterd email for username & password.");
                                 if(data==='true')
                                 {
                                     $(".f").text("Please cheack your regesterd email for username & password.");
                                 } 
-                                else if(data==='false')
-                                    {
-//                                      
-                                    }
+//                                else if(data==='false')
+//                                    {
+////                                      
+//                                    }
                                     else{
-                                        
+                                        alert(data);
                                     }
                             }
                         });

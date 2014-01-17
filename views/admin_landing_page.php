@@ -43,9 +43,7 @@ else
 </head>
 <body>
   
-        <!--<div style="width: 99%;height:97%;margin-left: 0px;position: fixed;border: 1px solid">-->
-        
-        
+        <!--<div style="width: 99%;height:97%;margin-left: 0px;position: fixed;border: 1px solid">-->                
    <div style="width:1000px;height: 1114px; margin: 0px auto 0px auto;margin-top: 5px;box-shadow: 4px 4px 5px #000000;-webkit-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
 box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scroll">
@@ -90,10 +88,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                              <div class="sp" style="width:10px;height: 20px;cursor: pointer;">+</div>
                          </td>
                              <td style="width: 100%;cursor: pointer">
-                             <span>Notification</span>
+                                 <span>Notification</span>
                             </td>
                             <td>
-                                 <div style="width:20px;height:22px; border: 1px solid;color: red">
+                                <div class="notification_img" style="width:20px;height:22px; border: 1px solid;color: red" >
                                   </div>
                             </td>
                       </tr>
@@ -306,12 +304,11 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
        </table>
    
     
-       
+        
     </div>
         <div style="width: 99%;height: 30px;" >
                  <?php include 'footer.php'; ?>
             </div>      <!--</div>-->
-      
-</body>
+   </body>
 </html>
 
