@@ -57,17 +57,21 @@
 .notification_img
 {
      background-color: dodgerblue;
-    width:20px;
-    
-    height:22px;
-    color:#000000;
-    font-size:17px;
+    width:25px;
+    height:25px;
+    color: #ffffff;
+    font-size:18px;
     font-style:normal;
     text-align: center;
-    padding-top:5px;
+    padding-top:-5px;
     font-family:Calibri; 
     box-shadow: 0px 5px 3px #000000;
-    opacity:0.8;
+/*    opacity:0.9;    */
+    border: 1px solid; 
+    border-radius:5px; 
+    margin-top: -10px; 
+    margin-right: 0px;
+    margin-left: 60px;
 }
 .notification_img:hover
 {
@@ -76,3 +80,45 @@
     
 }
 
+.menu_style
+{
+    width:180px;
+    height:30px;
+    border: 1px solid;
+    margin-top:10px;
+    margin-left: 5px;
+}
+
+.submenu_style
+{
+    width:180px;
+    height:auto; 
+    border: 1px solid; 
+    margin-top:0px; 
+    margin-left: 5px;
+}
+
+.submenu_notification
+{
+    background-color: dodgerblue;
+    width:18px;
+    height:18px;
+    color: #000000;
+    font-size:16px;
+    font-style:normal;
+    text-align: center;
+    font-family:Calibri; 
+    box-shadow: 0px 3px 3px #000000;
+    opacity:0.8;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 95%;
+    margin-top: -18px;
+}
+.submenu_inner_style
+{
+    width:150px;
+    height:30px; 
+    cursor: pointer;
+    margin-left:15px;
+}

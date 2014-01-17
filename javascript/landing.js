@@ -1,7 +1,7 @@
 $(document).ready(function(){
  var c=0;
   $("#cata").click(function (){
-        $(".cata1").slideToggle("slow");
+        $("#cata1").slideToggle("slow");
           if(c === 0)
            {
                $(".cp1").text("-");
@@ -18,7 +18,7 @@ $(document).ready(function(){
 $(document).ready(function(){
       var n=0;
      $("#noti").click(function (){
-      $(".noti1").slideToggle("slow");
+      $("#noti1").slideToggle("slow");
  
      if(n === 0)
       {
@@ -36,7 +36,7 @@ $(document).ready(function(){
 $(document).ready(function(){ 
     var s=0;
    $("#stor").click(function (){
-        $(".stor1").slideToggle();
+        $("#stor1").slideToggle();
          if(s === 0)
       {
           $(".spp").text("-");
@@ -52,7 +52,7 @@ $(document).ready(function(){
 $(document).ready(function(){ 
     var s2 =0;
    $("#syst").click(function (){
-    $(".syst1").slideToggle();
+    $("#syst1").slideToggle();
       if(s2 === 0)
       {
           $(".sy").text("-");
@@ -69,7 +69,7 @@ $(document).ready(function(){
 $(document).ready(function(){ 
    var sc=0;
         $("#static").click(function (){
-        $(".static1").slideToggle();
+        $("#static1").slideToggle();
          if(sc === 0)
       {
           $(".sc1").text("-");
@@ -85,7 +85,7 @@ $(document).ready(function(){
 $(document).ready(function(){ 
    var u=0;
 $("#util").click(function (){
-        $(".util1").slideToggle();
+        $("#util1").slideToggle();
          if(u=== 0)
       {
           $(".u1").text("-");

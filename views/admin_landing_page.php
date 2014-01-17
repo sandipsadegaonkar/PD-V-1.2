@@ -21,21 +21,16 @@ else
 }
 
 ?>
-
 <html lang="en">
 <head>
-	
 	<title>PD1.2_Admin_LandingPage</title>
                 <script type="text/javascript" src="../javascript/jquery-1.10.1-min.js"></script>
         <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
         <link href="../css/master_cities.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../javascript/logout.js"></script>
 <link href="../css/landing.css" rel="stylesheet" type="text/css"/>
-
 <script type="text/javascript" src="../javascript/landing.js"></script>
 <script type="text/javascript" src="../javascript/master_cities.js"></script>
-
-
     <!--<script
     type="text/javascript" src="javascript/jquery-1.10.1-min.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>-->
@@ -80,18 +75,18 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
 
    <div style="width: 200px;height:1000px; border: 1px solid;">
        
-       <div id="noti" style="width:150px;height:30px; border: 1px solid; margin-top:10px; margin-left: 20px;margin-right: 5px"> 
+       <div id="noti" class="menu_style"> 
                  <table>
                      <tr>
                          
                          <td>  
-                             <div class="sp" style="width:10px;height: 20px;cursor: pointer;">+</div>
+                             <div id="sp" style="width:10px;height: 20px;cursor: pointer;">+</div>
                          </td>
                              <td width="90%" style="cursor: pointer">
                                  <span>Notification</span>
                             </td>
                             <td align="right">
-                                <div class="notification_img" style="width:20px;height:22px; border: 1px solid; color: dodgerblue; border-radius: 5px; margin-top: -5px; margin-right: -5px;color: #ffffff" >
+                                <div class="notification_img"  >
                                     3
                                 </div>
                             </td>
@@ -99,23 +94,35 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
 
                  </table>
        </div>
-        <div class="noti1 "style="width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px;display: none"> 
-                 <div id="NCA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
-                   <span > Client Approval</span>                   
+       <div id="noti1" class="submenu_style" style="display: none;"> 
+                 <div id="NCA" class="submenu_inner_style"> 
+                   <span > Client Approval</span>
+                     <div class="submenu_notification">
+                      2
+                     </div>
                  </div>
-            <div id="NSA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
-                   <span > Store Approval</span>      
+            <div id="NSA" class="submenu_inner_style"> 
+                   <span > Store Approval</span> 
+                    <div class="submenu_notification">
+                      2
+                     </div>
                  </div>
-            <div id="NPA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
-                   <span > Product Approval</span>      
+            <div id="NPA" class="submenu_inner_style"> 
+                   <span > Product Approval</span>   
+                    <div class="submenu_notification">
+                      2
+                     </div>
                  </div>
-            <div id="NRA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
-                   <span > Review Approval</span>      
+            <div id="NRA" class="submenu_inner_style"> 
+                   <span > Review Approval</span> 
+                    <div class="submenu_notification">
+                      2
+                     </div>
                  </div>
        </div>
                
 
-       <div id="cata" style="width:150px;height:30px; border: 1px solid; margin-top:10px; margin-left: 20px;margin-right: 5px">
+       <div id="cata" class="menu_style">
              <table>
                  <tr>
                      <td>  
@@ -124,34 +131,30 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                      <td style="width: 100%;cursor: pointer;">
                          <span>Catalog</span>
                      </td>
-<!--                     <td>
-                          <div style="width:20px;height:22px; border: 1px solid;color: red">
-                                  </div>
-                     </td>-->
-                </tr>
+                    </tr>
              </table>
        </div>
-    <div class="cata1" style="width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px;display: none"> 
-                 <div id="CMC" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
+    <div id="cata1" class="submenu_style" style="display: none;"> 
+                 <div id="CMC" class="submenu_inner_style"> 
                    <span > Master Cities</span>      
                  </div>
-            <div id="CMA" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
+            <div id="CMA" class="submenu_inner_style"> 
                    <span >Master Area</span>      
                  </div>
-            <div id="CMB" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
+            <div id="CMB" class="submenu_inner_style"> 
                    <span >Master Brand</span>      
                  </div>
-            <div id="CMCAT" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
+            <div id="CMCAT" class="submenu_inner_style"> 
                    <span >Master Categories</span>      
                  </div>
-         <div id="CMF" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
+         <div id="CMF" class="submenu_inner_style"> 
                    <span >Master Filters</span>      
                  </div>
-         <div id="CPL" style="width:150px;height:30px; cursor: pointer;margin-left:15px;"margin-left:15px;"> 
+         <div id="CPL" class="submenu_inner_style"> 
                    <span >Product List</span>      
                  </div>
        </div>
-       <div id="stor" style="width:150px;height:30px; border: 1px solid; margin-top:10px; margin-left: 20px;margin-right: 5px">
+       <div id="stor" class="menu_style">
               <table>
                      <tr>
                          <td>  
@@ -167,21 +170,21 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                       </tr>
               </table>
        </div>
-         <div class="stor1" style="display: none; width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px"> 
-                 <div id="SS" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+         <div id="stor1" class="submenu_style" style="display: none;"> 
+                 <div id="SS" class="submenu_inner_style"> 
                    <span >Store</span>      
                  </div>
-            <div id="SSU" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+            <div id="SSU" class="submenu_inner_style"> 
                    <span >Store User </span>      
                  </div>
-             <div id=" SSP" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+             <div id=" SSP" class="submenu_inner_style"> 
                    <span >Store Profile</span>      
                  </div>
-             <div id="SASP" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+             <div id="SASP" class="submenu_inner_style"> 
                    <span >Add Store Product </span>      
                  </div>
        </div>
-       <div id="syst"style="width:150px;height:30px; border: 1px solid; margin-top:10px; margin-left: 20px;margin-right: 5px">
+       <div id="syst" class="menu_style">
            <table>
                   <tr>
                           <td>  
@@ -197,20 +200,20 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                    </tr>
            </table>
        </div>
-       <div  class="syst1" style="display: none;width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px"> 
-                 <div id="SYSU" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+       <div  id="syst1" class="submenu_style" style="display: none;"> 
+                 <div id="SYSU" class="submenu_inner_style"> 
                    <span >system User</span>      
                  </div>
-            <div id="SYSP" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+            <div id="SYSP" class="submenu_inner_style"> 
                    <span >System Profile</span>      
                  </div>
        </div>
-       <div id="static" style="width:150px;height:30px; border: 1px solid; margin-top:10px; margin-left: 20px;margin-right: 5px">
+       <div id="static" class="menu_style">
            <table>
                 <tr>
-                        <td>  
-                             <div class="sc1" style="width:10px;height: 20px;cursor: pointer;">+</div>
-                         </td>
+                    <td>  
+                        <div class="sc1" style="width:10px;height: 20px;cursor: pointer;">+</div>
+                    </td>
                     <td style="width: 100%;cursor: pointer;">
                          <span> Static content </span>
                     </td>
@@ -221,38 +224,38 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                 </tr>
            </table>
        </div>
-       <div class="static1" style="display: none; width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px"> 
-                 <div id="SCAU" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+       <div id="static1" class="submenu_style" style="display: none;"> 
+                 <div id="SCAU" class="submenu_inner_style"> 
                    <span >About Us</span>      
                  </div>
-            <div id="SCSP" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+            <div id="SCSP" class="submenu_inner_style"> 
                    <span >Sales & Purchase</span>      
                  </div>
-           <div id="SCTC" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+           <div id="SCTC" class="submenu_inner_style"> 
                    <span >Terms & Condition</span>      
                  </div>
-           <div id="SCRP" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+           <div id="SCRP" class="submenu_inner_style"> 
                    <span >Return Policy</span>      
                  </div>
-           <div id="SCCU" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+           <div id="SCCU" class="submenu_inner_style"> 
                    <span >Contact Us</span>      
                  </div>
-           <div id="SCPP" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+           <div id="SCPP" class="submenu_inner_style"> 
                    <span >Privacy Policy </span>      
                  </div>
-           <div id="SCF" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+           <div id="SCF" class="submenu_inner_style"> 
                    <span >FAQ</span>      
                  </div>
        </div>
-       <div id="util" style="width:150px;height:30px; border: 1px solid; margin-top:10px; margin-left: 20px;margin-right: 5px">
+       <div id="util" class="menu_style">
            <table>
                  <tr>
                      <td>  
                              <div class="u1" style="width:10px;height: 20px;cursor: pointer;">+</div>
-                         </td>
-                        <td style="width: 100%;cursor: pointer;">
+                     </td>
+                     <td style="width: 100%;cursor: pointer;">
                             <span>Utility</span>
-                        </td>
+                     </td>
 <!--                         <td>
                               <div style="width:20px;height:22px; border: 1px solid;color: red">
                                </div>
@@ -260,8 +263,8 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                 </tr>
            </table>
        </div>
-       <div class="util1" style="display: none;width:150px;height:auto; border: 1px solid; margin-top:0px; margin-left: 20px;margin-right: 5px"> 
-                 <div id="UDB" style="width:150px;height:30px; cursor: pointer;margin-left:15px;""> 
+       <div id="util1" class="submenu_style" style="display: none;"> 
+                 <div id="UDB" class="submenu_inner_style"> 
                    <span >Database Backup </span>      
                  </div>
        </div>
