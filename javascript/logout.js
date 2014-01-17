@@ -5,12 +5,11 @@ $(document).ready(function(){
           type:'GET',
           data:{},
           success:function(data){
-                alert(data);
-          if(data === 1)
+          if(data == 1)
           {
               window.open('../index.php','_self');
           } 
-          else if(data === 0)
+          else if(data == 0)
           {
                     alert("Some error in server side");
           }

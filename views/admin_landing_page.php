@@ -59,7 +59,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
         <table border="0" width="100%" height="100%" cellspacing="0px" cellpadding="0px">
             <tr align="right">
                 <td width="60%">
-                      <?=$username?><img src="../images/User.png" style="width: 30px; height: 35px;padding-bottom: 0px"/>
+                    <span style="font-style:bold ; font-size: 25; font-family: sans-serif;"><?=$username?>&nbsp;</span><img src="../images/User.png" style="width: 30px; height: 35px;padding-bottom: 0px"/>
                 </td>
                 <td width="40%" >
                    <span class='button_img' id='logout' style="border-radius: 5px;cursor: pointer;" align="right">Logout</span>

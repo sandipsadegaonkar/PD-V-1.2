@@ -11,10 +11,11 @@ if($con)
     if($last)
     { 
         session_destroy();
-        echo 1;
+        $x=1;
     }
  else {
-        echo 0;    
+        $x=0;    
     }
+    echo $x;
 }
 ?>
