@@ -29,7 +29,7 @@ if($con)
      }
  else 
    {
-        echo 'Username and Password is empty.';    
+        echo 'Please enter Username and Password';    
     } 
 }
 ?>
