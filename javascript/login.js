@@ -63,3 +63,28 @@ $(document).ready(function(){
       $(".forget").slideToggle("slow");
      });
 });
+$(document).ready(function(){
+            $('#ok').click(function(){
+                        var email=$('#email').val();
+                        $.ajax({
+                            url:'../controllers/forget.php',
+                            type:'GET',
+                            data:{email:email},
+                            success:function(data){
+                                alert(data);
+                                $(".f").text("Please cheack your regesterd email for username & password.");
+                                if(data==='true')
+                                {
+                                    $(".f").text("Please cheack your regesterd email for username & password.");
+                                } 
+                                else if(data==='false')
+                                    {
+//                                      
+                                    }
+                                    else{
+                                        
+                                    }
+                            }
+                        });
+   });                     
+});
