@@ -99,16 +99,44 @@ $("#util").click(function (){
      });
         
 });
-$(document).ready(function(){ 
-$('#').click(function(){  
-      $('#content_page').load('sub/master_cities.php');
-      $('#content_page').css('display','block');
-$('#content_header').text(" >> Catalog >> Master Cities"); 
-});
- $(document).ready(function (){
-     
- })
 
+
+/********************************************************
+        Menu click and open sub menu
+*******************************************************/
+$(document).ready(function(){ 
+$('#catalog_mc').click(function(){
+//    $.ajaxSetup({
+//        beforeSend: function(xhr, status) {
+//            // TODO: show spinner
+//            $('#process').show();
+//        },
+//        complete: function() {
+//            // TODO: hide spinner
+//            $('#process').hide();
+//        }
+//    });
+                        $.ajax({
+                            url:'../controllers/admin_cities_data.php',
+                            type:'GET',
+                            data:{},
+                            success:function(data){
+                                    $('#content_page').slideDown("slow");
+                                    $('#content_page').load('sub/master_cities.php');
+                                    $('#content_page').css('display','block');
+                                    $('#content_header').text(" >> Catalog >> Master Cities");
+                                    $("#dat").html(data);
+                                    
+                            }
+                        });
+ 
+});
+$('#catalog_ma').click(function(){ 
+    $('#content_page').slideDown("slow");
+      $('#content_page').load('sub/master_area.php');
+      $('#content_page').css('display','block');
+$('#content_header').text(" >> Catalog >> Master Area"); 
+});
 $('#udb').click(function(){
     $('#content_page').slideDown("slow");
     $('#content_page').load('sub/database_backup.php');
@@ -125,7 +153,8 @@ $('#content_close').click(function (){
 });
 });
 $(document).ready(function(){
-$("#noti").hover(function (){
+
+$("#noti").mouseenter(function (){
    $("#menu_effect").animate({
     width:'180'    
 });
@@ -137,7 +166,7 @@ $("#noti").mouseleave(function (){
 });
 });
 $(document).ready(function(){
-$("#cata").hover(function (){
+$("#cata").mouseenter(function (){
    $("#menu_effect1").animate({
     width:'180'    
 });
@@ -149,7 +178,7 @@ $("#cata").mouseleave(function (){
 });
 });
 $(document).ready(function(){
-$("#stor").hover(function (){
+$("#stor").mouseenter(function (){
    $("#menu_effect2").animate({
     width:'180'    
 });
@@ -161,7 +190,7 @@ $("#stor").mouseleave(function (){
 });
 });
 $(document).ready(function(){
-$("#syst").hover(function (){
+$("#syst").mouseenter(function (){
    $("#menu_effect3").animate({
     width:'180'    
 });
@@ -173,7 +202,7 @@ $("#syst").mouseleave(function (){
 });
 });
 $(document).ready(function(){
-$("#static").hover(function (){
+$("#static").mouseenter(function (){
    $("#menu_effect4").animate({
     width:'180'    
 });
@@ -185,7 +214,7 @@ $("#static").mouseleave(function (){
 });
 });
 $(document).ready(function(){
-$("#util").hover(function (){
+$("#util").mouseenter(function (){
    $("#menu_effect5").animate({
     width:'180'    
 });

@@ -1,67 +1,66 @@
 <html>
     <head>
-        <title>Master_Cities</title>
-        <link href="../css/master_cities.css" rel="stylesheet" type="text/css"/>
+        <title>Master_Area</title> 
+        <link href="../css/master_area.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="../javascript/master_cities.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-1.10.1-min.js"></script>
+        <script type="text/javascript" src="../javascript/master_area.js"></script>
     </head>
     <body>
         <table width="100%">
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2">
                     <div style="height: 30px;width:150px;text-align:left">
-                        <span class='addcities_button_img' id='add_cities' style="border-radius: 5px;cursor: pointer;">[+]Add Cities</span>
+                        <span class='addarea_button_img' id='add_area' style="border-radius: 5px;cursor: pointer;">[<span class="aadarea_close" style="cursor: pointer;">+</span>]Add Area</span>
                     </div>
                     <br>
-                    <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; display: none;" id="Master_addcities">
+                    <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; display: none;" id="Master_addarea">
+                    
                         <div align="right">                            
                             <img src="../images/Close.ico" style="width: 16px; height: 16px;margin-top: 5px; margin-right: 5px" id="content_close"/>
                         </div>
                     <center>    
-                    <table width="70%">
+                    <table width="70%" border="1">
                           <tr>
                               <td colspan="2" style="text-indent: 20px"><b>Enter city details:</b></td>
                           </tr>
                           <tr>
                               <td>
-                                Country
+                                City Name
                               </td>
                               <td>
-                                <input type="text" name="addcity_country">  
+                                <select name="city">
+                                    <option>Pune</option>
+                                    <option>Mumbai</option>                      
+                                </select>
                               </td>                              
                           </tr>
                          <tr>
                               <td>
-                               State
+                                Area Name
                               </td>
                               <td>
-                                <input type="text" name="addcity_state">
+                                <input type="text" name="addarea_area">
                               </td>                              
-                          </tr>
-                          <tr>
-                              <td>
-                                 City
-                              </td>
-                              <td>
-                                <input type="text" name="addcity_city"> 
-                              </td>                              
-                          </tr>                        
-                          <tr>
-                              <td>
-                                 Longitude
-                              </td>
-                              <td>
-                                <input type="text" name="addcity_longitude"> 
-                              </td>                              
-                          </tr>     
+                          </tr>                          
+                         
                           <tr>
                               <td>
                                  Latitude
                               </td>
                               <td>
-                                <input type="text" name="addcity_latitude"> 
+                                <input type="text" name="addarea_latitude"> 
                               </td>                              
                           </tr>
+                          <tr>
+                              <td>
+                                 Longitude
+                              </td>
+                              <td>
+                                <input type="text" name="addarea_longitude"> 
+                              </td>                              
+                          </tr>     
+                          
                           <tr>
                               <td colspan="2" >
                               </td>
@@ -69,11 +68,23 @@
                          
                           <tr>
                               <td>
+                                 Status
+                              </td>
+                              <td>
+                                   <select name="status">
+                                    <option>Active</option>
+                                    <option>Inactive</option>                      
+                                   </select>
+                              </td>                              
+                          </tr>                        
+                          
+                          <tr>
+                              <td>
                                 
                               </td>
                               <td  width="100%" >
-                                  <input type="button" name="submit" value="Add" style="width: 70px ;" class='addcities_button_img'>
-                                  <input type="reset" name="reset" value="Clear" style="width: 70px ;" class='addcities_button_img'>
+                                  <input type="button" name="submit" value="Add" style="width: 70px ;" class='addarea_button_img'>
+                                  <input type="reset" name="reset" value="Cancle" style="width: 70px ;" class='addarea_button_img'>
                               </td>
                           </tr>
                       </table></center>
@@ -133,7 +144,7 @@
                         </tr>
                         <tr>
                             <td colspan="6">
-                                <span id="dat"></span>
+                                <h4>No Records found</h4>
                             </td>
                         </tr>
                         

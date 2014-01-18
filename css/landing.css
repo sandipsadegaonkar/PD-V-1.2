@@ -45,14 +45,7 @@
     opacity:1;   
     
 }
-.grid_scroll
-{
-    overflow: auto;
-    height: 500px;
-    border: solid 1px orange;
-    height: 480px;
-    width: 800px;
-}
+
 
 .notification_img
 {

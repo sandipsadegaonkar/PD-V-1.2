@@ -1,0 +1,30 @@
+/* 
+    Document   : master_cities
+    Created on : Jan 15, 2014, 12:19:32 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.addarea_button_img
+{
+    background-color:  #ee9611;
+    width: 150px;
+    float:left;
+    color: #000000;
+    font-size:20px;
+    font-style:normal;
+    text-align: center;
+    padding-top:2px;
+    font-family:Calibri; 
+    box-shadow: 1px 1px 2px #000000;
+    opacity:0.8;
+    
+}
+.addarea_button_img:hover
+{
+    cursor: pointer;
+    opacity:1;   
+    
+}
+
+

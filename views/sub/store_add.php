@@ -4,7 +4,7 @@
     <head>
         <title>Add Store </title>
         
-       <link href="../../css/master_cities.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/store_menu.css" rel="stylesheet" type="text/css"/>
      <script type="text/javascript" src="../../javascript/jquery-1.10.2.js"></script>
      <script type="text/javascript" src="../../javascript/store.js"></script>
     </head>
@@ -13,7 +13,7 @@
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2" border="1px solid">
                     <div style="height: 30px;width:150px;text-align:left ;">
-                        <span class='addcities_button_img' id='add_store' style="border-radius: 5px;cursor: pointer;border: 1px solid">[+]Add Store </span>
+                        <span class='addstore_button_img' id='add_store' style="border-radius: 5px;cursor: pointer;border: 1px solid">[+]Add Store </span>
                     </div>
                     <br>
                 
@@ -118,8 +118,8 @@
                                   
                               </td>
                               <td align="left">
-                                  <input type="button" name="save_changes" value="Save Changes" style="width: 110px ;"class='addcities_button_img'>
-                                  <input type="button" name="cancel" value="Cancel" style="width: 70px ;" class='addcities_button_img'>
+                                  <input type="button" name="save_changes" value="Save Changes" style="width: 110px ;"class='addstore_button_img'>
+                                  <input type="button" name="cancel" value="Cancel" style="width: 70px ;" class='addstore_button_img'>
                               </td>
                           </tr>
                       </table> 

@@ -1,66 +1,83 @@
 <html>
     <head>
-        <title>Master_Cities</title>
-        <link href="../css/master_cities.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="../javascript/master_cities.js"></script>
+        <title> store  user </title>
+        <link href="../../css/store_menu.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="../../javascript/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="../../javascript/master_cities.js"></script>
     </head>
     <body>
-        <table width="100%">
+        <table width="100%" border="1px solid">
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2">
                     <div style="height: 30px;width:150px;text-align:left">
-                        <span class='addcities_button_img' id='add_cities' style="border-radius: 5px;cursor: pointer;">[+]Add Cities</span>
+                        <span class='addstore_button_img' id='add_store_user' style="border-radius: 5px;cursor: pointer;">[+]Add store user </span>
                     </div>
                     <br>
-                    <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; display: none;" id="Master_addcities">
-                        <div align="right">                            
-                            <img src="../images/Close.ico" style="width: 16px; height: 16px;margin-top: 5px; margin-right: 5px" id="content_close"/>
-                        </div>
-                    <center>    
-                    <table width="70%">
+                    <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb;" id="add_store_user1">                
+                        <center>    
+                    <table width="70%" border="1px solid">
                           <tr>
-                              <td colspan="2" style="text-indent: 20px"><b>Enter city details:</b></td>
+                              <td colspan="2" style="text-indent: 20px"><b>Enter store user information:</b></td>
                           </tr>
                           <tr>
                               <td>
-                                Country
+                                Agency 
                               </td>
-                              <td>
-                                <input type="text" name="addcity_country">  
-                              </td>                              
+                             <td style="width: 50%; height:5%;" align="left">
+                                    <select name="user_agency_list1">
+                                         <option>All</option>
+                                         <option>All </option>
+                                         <option>All</option>
+                                         <option>All</option>
+                                        <option>All</option>
+                                   </select>
+                                </td>                           
                           </tr>
                          <tr>
                               <td>
-                               State
+                               First Name 
                               </td>
                               <td>
-                                <input type="text" name="addcity_state">
+                                <input type="text" name="user_first_name">
                               </td>                              
                           </tr>
                           <tr>
                               <td>
-                                 City
+                                 Last Name 
                               </td>
                               <td>
-                                <input type="text" name="addcity_city"> 
+                                <input type="text" name="user_last_name"> 
                               </td>                              
                           </tr>                        
                           <tr>
                               <td>
-                                 Longitude
+                                  Email 
                               </td>
                               <td>
-                                <input type="text" name="addcity_longitude"> 
+                                <input type="text" name="user_email"> 
                               </td>                              
                           </tr>     
                           <tr>
                               <td>
-                                 Latitude
+                                Branch 
+                              </td>
+                               <td style="width: 50%; height:5%;" align="left">
+                                    <select name="branch_list">
+                                         <option>All</option>
+                                         <option>All </option>
+                                         <option>All</option>
+                                         <option>All</option>
+                                        <option>All</option>
+                                   </select>
+                                </td>                          
+                          </tr>
+                          <tr>
+                              <td>
+                                  Time Zone
                               </td>
                               <td>
-                                <input type="text" name="addcity_latitude"> 
-                              </td>                              
+                                  <input type="text" name="time_zone">
+                               </td>
                           </tr>
                           <tr>
                               <td colspan="2" >
@@ -133,7 +150,7 @@
                         </tr>
                         <tr>
                             <td colspan="6">
-                                <span id="dat"></span>
+                                <h4>No Records found</h4>
                             </td>
                         </tr>
                         
