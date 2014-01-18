@@ -13,7 +13,7 @@
     </head>
     <body>
      <br/>
-     <div class="db_bck" style="text-align: center;margin-left: 10px;box-shadow: 1px 2px 3px #000000;background-color:#ffffff; font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Take Database Backup</div>
+     <div class=" " style="text-align: center;margin-left: 10px;box-shadow: 1px 2px 3px #000000;background-color:#ffffff; font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Take Database Backup</div>
     <br/>
     <br/>
     <div class="db_bck_his" style="text-align: center;margin-left: 10px;box-shadow: 1px 2px 3px #000000;background-color: #ffffff;font-size: 18px; font-weight: lighter; height: 30px;width:200px;cursor: pointer;">Database Backup History</div>

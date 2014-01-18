@@ -121,21 +121,76 @@ $('#content_close').click(function (){
 //    $('#content_page').css('display','none');
     $('#content_header').text(""); 
 });
-
-//$("#").click(function (){
-//   $("#content").load("sub/master_cities.php"); 
-//});
-//
-//$("#").click(function (){
-//   $("#content").load("sub/master_cities.php"); 
-//});
-//
-//$("#").click(function (){
-//   $("#content").load("sub/master_cities.php"); 
-//});
-//
-//$("#").click(function (){
-//   $("#content").load("sub/master_cities.php"); 
-//});
 });
-
+$(document).ready(function(){
+$("#noti").hover(function (){
+   $("#menu_effect").animate({
+    width:'180'    
+});
+});
+$("#noti").mouseleave(function (){
+   $("#menu_effect").animate({
+    width:'5'   
+});
+});
+});
+$(document).ready(function(){
+$("#cata").hover(function (){
+   $("#menu_effect1").animate({
+    width:'180'    
+});
+});
+$("#cata").mouseleave(function (){
+   $("#menu_effect1").animate({
+    width:'5'   
+});
+});
+});
+$(document).ready(function(){
+$("#stor").hover(function (){
+   $("#menu_effect2").animate({
+    width:'180'    
+});
+});
+$("#stor").mouseleave(function (){
+   $("#menu_effect2").animate({
+    width:'5'   
+});
+});
+});
+$(document).ready(function(){
+$("#syst").hover(function (){
+   $("#menu_effect3").animate({
+    width:'180'    
+});
+});
+$("#syst").mouseleave(function (){
+   $("#menu_effect3").animate({
+    width:'5'   
+});
+});
+});
+$(document).ready(function(){
+$("#static").hover(function (){
+   $("#menu_effect4").animate({
+    width:'180'    
+});
+});
+$("#static").mouseleave(function (){
+   $("#menu_effect4").animate({
+    width:'5'   
+});
+});
+});
+$(document).ready(function(){
+$("#util").hover(function (){
+   $("#menu_effect5").animate({
+    width:'180'    
+});
+});
+$("#util").mouseleave(function (){
+   $("#menu_effect5").animate({
+    width:'5'   
+});
+});
+});

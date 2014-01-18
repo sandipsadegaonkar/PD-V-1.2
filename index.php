@@ -24,10 +24,12 @@
             <div id='content' style='width:960px;height:550px;'>
                   <?php include 'views/admin_login.php';?>
             </div>
-    </div>
-            <div style="width: 99%;height: 30px;" >
+        <br>
+        <center><div style="width: 500px;height: 30px;text-align: center" >
                  <?php include 'views/footer.php'; ?>
-            </div>     
+            </div> </center>
+    </div>
+                
 	           
 </body>
 </html>

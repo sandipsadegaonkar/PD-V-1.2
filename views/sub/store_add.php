@@ -15,13 +15,13 @@
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2" border="1px solid">
                     <div style="height: 30px;width:150px;text-align:left ;">
-                        <span class='addcities_button_img' id='add_store' style="border-radius: 5px;cursor: pointer;">[+]Add Store </span>
+                        <span class='addcities_button_img' id='add_store' style="border-radius: 5px;cursor: pointer;border: 1px solid">[+]Add Store </span>
                     </div>
                     <br>
                 
                 <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; border: 1px solid ;" id="add_store1">
                   
-                        <table width ="70%" border="1px solid">
+                        <table width ="70%">
                             <tr>
                                 <td colspan="2" align="center" style="text-indent: 20px"><b> Add Store information:</b> </td>
                             </tr>
@@ -136,10 +136,34 @@
                     Store :
                </td>
                <td align="right" style="width: 50%; height: 5%">
-                     
+                       <input type="text" name="search" placeholder="Search" style="border-radius: 5px; background-color: #e7e7e7;text-indent: 5px;">
                     <input type="button" name="search_go" value="Go" style="border-radius: 5px;" >                                     
                 </td>
             </tr>
+            <tr>
+                 <td align="center" colspan="2">
+                    <table border="1" width="100%">
+                        <tr>
+                            <th>
+                                Store Name 
+                            </th>
+                            <th>
+                                Agency 
+                            </th>
+                            <th>
+                                City
+                            </th>
+                            <th>
+                                Area 
+                            </th>
+                             <th>
+                                Status
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+            <tr>
          </table>        
     </body>
 </html>

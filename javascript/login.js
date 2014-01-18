@@ -56,18 +56,32 @@ $(document).ready(function(){
                         
 });
 $(document).ready(function(){
+   
      $("#for").click(function (){
       $(".forget").slideToggle("slow");
+      $(".f").text(" ");
+       
      });
 });
 $(document).ready(function(){
      $("#close").click(function (){
-      $(".forget").slideToggle("slow");
+$(".forget").slideToggle("1000");  
+$(".f").text("Did you forget your password?");
      });
 });
 $(document).ready(function(){
             $('#ok').click(function(){
                         var email=$('#email').val();
+                        $.ajaxSetup({
+        beforeSend: function(xhr, status) {
+            // TODO: show spinner
+            $('#process').show();
+        },
+        complete: function() {
+            // TODO: hide spinner
+            $('#process').hide();
+        }
+    });
                         $.ajax({
                             url:'controllers/forget.php',
                             type:'GET',

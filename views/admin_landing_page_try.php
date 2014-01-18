@@ -97,25 +97,25 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
        </div>
        
        <div id="noti1" class="submenu_style" style="display: none;"> 
-                 <div id="ncp" class="submenu_inner_style"> 
+                 <div id="NCA" class="submenu_inner_style"> 
                    <span > Client Approval</span>
                      <div class="submenu_notification">
                       3
                      </div>
                  </div>
-            <div id="nsp" class="submenu_inner_style"> 
+            <div id="NSA" class="submenu_inner_style"> 
                    <span > Store Approval</span> 
                     <div class="submenu_notification">
                       5
                      </div>
                  </div>
-            <div id="npa" class="submenu_inner_style"> 
+            <div id="NPA" class="submenu_inner_style"> 
                    <span > Product Approval</span>   
                     <div class="submenu_notification">
                       1
                      </div>
                  </div>
-            <div id="nra" class="submenu_inner_style"> 
+            <div id="NRA" class="submenu_inner_style"> 
                    <span > Review Approval</span> 
                     <div class="submenu_notification">
                       2
@@ -128,7 +128,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
              <table>
                  <tr>
                      <td>  
-                             <div class="cp1" style="width:10px;height: 20px;cursor: pointer;">+</div>
+                             <div class="cp1" style="width:10px;height: 20px;cursor: pointer; font-size: 14">+</div>
                          </td>
                      <td style="width: 100%;">
                          <span>Catalog</span>
@@ -138,22 +138,22 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
            <div id="menu_effect1" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
     <div id="cata1" class="submenu_style" style="display: none;"> 
-                 <div id="cmc" class="submenu_inner_style"> 
+                 <div id="CMC" class="submenu_inner_style"> 
                    <span > Master Cities</span>      
                  </div>
-            <div id="cma" class="submenu_inner_style"> 
+            <div id="CMA" class="submenu_inner_style"> 
                    <span >Master Area</span>      
                  </div>
-            <div id="cmb" class="submenu_inner_style"> 
+            <div id="CMB" class="submenu_inner_style"> 
                    <span >Master Brand</span>      
                  </div>
-            <div id="cmcat" class="submenu_inner_style"> 
+            <div id="CMCAT" class="submenu_inner_style"> 
                    <span >Master Categories</span>      
                  </div>
-         <div id="cmf" class="submenu_inner_style"> 
+         <div id="CMF" class="submenu_inner_style"> 
                    <span >Master Filters</span>      
                  </div>
-         <div id="cpl" class="submenu_inner_style"> 
+         <div id="CPL" class="submenu_inner_style"> 
                    <span >Product List</span>      
                  </div>
        </div>
@@ -175,16 +175,16 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
            <div id="menu_effect2" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
          <div id="stor1" class="submenu_style" style="display: none;"> 
-                 <div id="ss" class="submenu_inner_style"> 
+                 <div id="SS" class="submenu_inner_style"> 
                    <span >Store</span>      
                  </div>
-            <div id="ssu" class="submenu_inner_style"> 
+            <div id="SSU" class="submenu_inner_style"> 
                    <span >Store User </span>      
                  </div>
-             <div id="ssp" class="submenu_inner_style"> 
+             <div id=" SSP" class="submenu_inner_style"> 
                    <span >Store Profile</span>      
                  </div>
-             <div id="sasp" class="submenu_inner_style"> 
+             <div id="SASP" class="submenu_inner_style"> 
                    <span >Add Store Product </span>      
                  </div>
        </div>
@@ -206,10 +206,10 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
            <div id="menu_effect3" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
        <div  id="syst1" class="submenu_style" style="display: none;"> 
-                 <div id="sysu" class="submenu_inner_style"> 
+                 <div id="SYSU" class="submenu_inner_style"> 
                    <span >System User</span>      
                  </div>
-            <div id="sysp" class="submenu_inner_style"> 
+            <div id="SYSP" class="submenu_inner_style"> 
                    <span >System Profile</span>      
                  </div>
        </div>
@@ -231,25 +231,25 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
            <div id="menu_effect4" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
        <div id="static1" class="submenu_style" style="display: none;"> 
-                 <div id="scau" class="submenu_inner_style"> 
+                 <div id="SCAU" class="submenu_inner_style"> 
                    <span >About Us</span>      
                  </div>
-            <div id="scsp" class="submenu_inner_style"> 
+            <div id="SCSP" class="submenu_inner_style"> 
                    <span >Sales & Purchase</span>      
                  </div>
-           <div id="sctc" class="submenu_inner_style"> 
+           <div id="SCTC" class="submenu_inner_style"> 
                    <span >Terms & Condition</span>      
                  </div>
-           <div id="scrp" class="submenu_inner_style"> 
+           <div id="SCRP" class="submenu_inner_style"> 
                    <span >Return Policy</span>      
                  </div>
-           <div id="sccu" class="submenu_inner_style"> 
+           <div id="SCCU" class="submenu_inner_style"> 
                    <span >Contact Us</span>      
                  </div>
-           <div id="scpp" class="submenu_inner_style"> 
+           <div id="SCPP" class="submenu_inner_style"> 
                    <span >Privacy Policy </span>      
                  </div>
-           <div id="scf" class="submenu_inner_style"> 
+           <div id="SCF" class="submenu_inner_style"> 
                    <span >FAQ</span>      
                  </div>
        </div>
@@ -272,7 +272,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
        </div>
       
        <div id="util1" class="submenu_style" style="display: none;"> 
-                 <div id="udb" class="submenu_inner_style"> 
+                 <div id="UDB" class="submenu_inner_style"> 
                    <span >Database Backup </span>      
                  </div>
        </div>
@@ -314,6 +314,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
       </div>
             </td></tr>
        </table>
+       <span class="ext_div">sakdfhj</span>
    <div style="width: 100%;height: 30px;" >
                  <?php include 'footer.php'; ?>
             </div>  

@@ -13,14 +13,18 @@ session_start();
 <!--    <link rel="shortcut icon" href="images/Logo.jpg" type="image/x-icon"/>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>-->
     <link href="css/home.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="../javascript/login.js"></script>
     <!--<script type="text/javascript" src="javascript/jquery-1.10.1-min.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>-->
+    <style>
+        .ui-effects-transfer { border: 2px solid gray; }     
+    </style>
 </head>
 <body> 
    <br>
    
-   <div style="width: 500px; margin: 0px auto 0px auto;margin-top: 5px;box-shadow: 4px 4px 5px #000000;-webkit-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
+   <div class="ui-widget-content ui-corner-all" style="width: 500px; margin: 0px auto 0px auto;margin-top: 5px;box-shadow: 4px 4px 5px #000000;-webkit-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
 box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
         <br>
@@ -61,7 +65,6 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
                         <div class='button_img' id='login' style="border-radius: 5px;cursor: pointer;">Login</div>
                     </td>
                 </tr>
-                    
             </table>
             
         </center>
@@ -72,7 +75,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
                 <a id='for' href="javascript:click()"><span class="f">Did you forget your password?</span></a>
         </div></center>
         <br/>
-        <div class="forget" style="width: 100%;height: 90px;display: none;background-color:#aabbcc;margin-top: -100px">
+        <div class="forget" style="width: 100%;height: 90px;display: none;background-color:#aabbcc;margin-top: -85px">
             <div align="right"><img src="images/Close.ico" height="15px" width="15px" id="close" style="cursor: pointer"/></div>
             <center>
                 <table>
@@ -86,6 +89,11 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
                         <td>
                             <div class='button_img' id="ok" style="border-radius: 5px;cursor: pointer;">Submit</div>
                         </td>
+                        </tr><tr>
+                            <td colspan="3" align="center">
+                            <img id="process" src="images/process.gif" style="width: 30px;height: 30px;display: none">
+                        </td>
+                      
                     </tr>
                     
                 </table>
