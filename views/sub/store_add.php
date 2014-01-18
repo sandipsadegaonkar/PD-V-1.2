@@ -8,7 +8,7 @@
         
        <link href="../../css/master_cities.css" rel="stylesheet" type="text/css"/>
      <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="../javascript/store.js"></script>
+        <script type="text/javascript" src="../../javascript/store.js"></script>
     </head>
     <body>
         <table width="100%" border="1px solid">
