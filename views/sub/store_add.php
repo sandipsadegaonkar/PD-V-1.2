@@ -1,17 +1,15 @@
 <?php
-
-
 ?>
 <html>
     <head>
         <title>Add Store </title>
         
        <link href="../../css/master_cities.css" rel="stylesheet" type="text/css"/>
-     <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="../../javascript/store.js"></script>
+     <script type="text/javascript" src="../../javascript/jquery-1.10.2.js"></script>
+     <script type="text/javascript" src="../../javascript/store.js"></script>
     </head>
     <body>
-        <table width="100%" border="1px solid">
+        <table width="100%">
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2" border="1px solid">
                     <div style="height: 30px;width:150px;text-align:left ;">
@@ -19,7 +17,7 @@
                     </div>
                     <br>
                 
-                <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; border: 1px solid ;" id="add_store1">
+                <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; border: 1px solid; display: none;" id="add_store1">
                   
                         <table width ="70%">
                             <tr>
@@ -131,7 +129,7 @@
              <tr>
                 <td colspan="2"><hr></td>
             </tr>
-             <tr >
+             <tr>
                 <td style="width: 50%; height:5%;" align="left">
                     Store :
                </td>
@@ -164,6 +162,7 @@
                             </th>
                         </tr>
             <tr>
-         </table>        
+         </table> 
+        </table>
     </body>
 </html>

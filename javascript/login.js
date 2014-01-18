@@ -65,8 +65,9 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
      $("#close").click(function (){
-$(".forget").slideToggle("1000");  
+$(".forget").slideToggle("1000");
 $(".f").text("Did you forget your password?");
+  $("#email").val("");
      });
 });
 $(document).ready(function(){

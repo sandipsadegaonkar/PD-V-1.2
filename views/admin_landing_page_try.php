@@ -29,7 +29,7 @@ else
         <link href="../css/master_cities.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../javascript/logout.js"></script>
 <link href="../css/landing.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="../javascript/landing.js"></script>
+<script type="text/javascript" src="../javascript/landing_try.js"></script>
 <script type="text/javascript" src="../javascript/master_cities.js"></script>
     <!--<script
     type="text/javascript" src="javascript/jquery-1.10.1-min.js"></script>
@@ -39,7 +39,7 @@ else
 <body>
   
         <!--<div style="width: 99%;height:97%;margin-left: 0px;position: fixed;border: 1px solid">-->                
-   <div style="width:990px;height: 1147px; margin: 0px auto 0px auto;margin-top: 5px;box-shadow: 4px 4px 5px #000000;-webkit-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
+<div style="width:990px;height: 650px; margin: 0px auto 0px auto;margin-top: 5px;box-shadow: 4px 4px 5px #000000;-webkit-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);
 box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scroll">
        <table border="0">
@@ -74,7 +74,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
         <tr>
             <td>
 
-   <div style="width: 200px;height:1000px; border: 1px solid;">
+   <div style="width: 200px;height:500px;border: 1px solid;">
       
         <div id="noti" class="menu_style"> 
                  <table>
@@ -284,7 +284,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
             
             </td>
             <td style="width: 100%">
-     <div style="width: 99%;height:1000px;border: 1px solid;padding-top: 0px; background-image:url('../images/icon.jpg');background-repeat: no-repeat;background-position: center;">
+     <div style="width: 99%;height:500px; border: 1px solid;padding-top: 0px; background-image:url('../images/icon.jpg');background-repeat: no-repeat;background-position: center;">
          
           <!--<img src="../images/icon.JPG" height="400px" width="100%" style="opacity: 0.2; position: relative; top: 0px; left: 0px; z-index: -1;" >-->  
         <div  style="width: 100%;height: 30px;border: 1px solid;padding-top: 0px;"> 
@@ -296,7 +296,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                 <span id="content_header" align="left" style="font-size: 18px;"></span>
                 </span>
                     </td>
-                    <td align="right">
+                    <td align="right" >
 <!--            <img src="../images/User.png" style="width: 20px; height: 20px; margin-top: 2px;"/>
             <img src="../images/Down.ico" style="width: 20px; height: 20px;margin-top: 5px;"/>-->
             <img src="../images/Close.ico" style="width: 20px; height: 20px;margin-top: 5px; margin-right: 5px" id="content_close"/>
@@ -305,7 +305,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
             </table>
         </div>
 
-        <div id="content_page" style="width: 99.90%;height:968px;border: 1px solid;padding-top: 0px; background-color: #ffffff;display: none;"> 
+        <div id="content_page" style="width: 99.90%;height:668px;border: 1px solid;padding-top: 0px; background-color: #ffffff;display: none;"> 
             
         </div>
         
@@ -314,7 +314,6 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
       </div>
             </td></tr>
        </table>
-       <span class="ext_div">sakdfhj</span>
    <div style="width: 100%;height: 30px;" >
                  <?php include 'footer.php'; ?>
             </div>  

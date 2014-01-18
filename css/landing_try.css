@@ -1,0 +1,118 @@
+/* 
+    Document   : home
+    Created on : Oct 4, 2013, 10:20:34 PM
+    Author     : NAVID AHEMAD
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.ext_div{background-color: #ffffff; width:960px;height:800px;margin-top: 155px;float:left;}
+.home_row_div{width:960px;height:250px;float:left;}
+.home_img_div{width:500px;height:248px;float:left;}
+.home_text
+{
+    font-family: Calibri;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.home_text:hover
+{
+    border-color: #ee9611;
+}
+.home_text:active
+{
+    border-color: #ee9611;
+}
+.button_img
+{
+    margin-left: 10px;
+    background-color: #ee9611;
+    width:90px;
+    float:left;
+    height:26px;
+    color:#000000;
+    font-size:17px;
+    font-style:normal;
+    text-align: center;
+    padding-top:5px;
+    font-family:Calibri; 
+    box-shadow: 4px 4px 5px #000000;
+    opacity:0.8;
+}
+.button_img:hover
+{
+    cursor: pointer;
+    opacity:1;   
+    
+}
+
+
+.notification_img
+{
+     background-color: dodgerblue;
+    width:25px;
+    height:25px;
+    color: #ffffff;
+    font-size:18px;
+    font-style:normal;
+    text-align: center;
+    padding-top:-5px;
+    font-family:Calibri; 
+    box-shadow: 0px 5px 3px #000000;
+/*    opacity:0.9;    */
+    border: 1px solid; 
+    border-radius:5px; 
+    margin-top: -10px; 
+    margin-right: 0px;
+    margin-left: 60px;
+}
+.notification_img:hover
+{
+    cursor: pointer;
+    opacity:1;   
+    
+}
+
+.menu_style
+{
+    width:180px;
+    height:30px;
+    border: 1px solid;
+    margin-top:10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.submenu_style
+{
+    width:180px;
+    height:auto; 
+    border: 1px solid; 
+    margin-top:0px; 
+    margin-left: 5px;
+}
+
+.submenu_notification
+{
+    background-color: dodgerblue;
+    width:18px;
+    height:18px;
+    color: #ffffff;
+    font-size:16px;
+    font-style:normal;
+    text-align: center;
+    font-family:Calibri; 
+    box-shadow: 0px 3px 3px #000000;
+    opacity:0.8;
+    border: 1px solid;
+    border-radius: 18px;
+    margin-left: 95%;
+    margin-top: -18px;
+}
+.submenu_inner_style
+{
+    width:150px;
+    height:30px; 
+    cursor: pointer;
+    margin-left:15px;
+}

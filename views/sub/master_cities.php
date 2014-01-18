@@ -1,11 +1,4 @@
-<?php
-$con=  mysql_connect("localhost","root","");
-if($con)
-{
-    mysql_select_db("pd");
-    $result=  mysql_query("select * from cities");
-}
-?>
+
 <html>
     <head>
         <title>Master_Cities</title>
@@ -144,14 +137,7 @@ if($con)
                                 <h4>No Records found</h4>
                             </td>
                         </tr>-->
-                        <?php 
-                        while($row=  mysql_fetch_array($result))
-                        {
-                            echo '<tr><td>'.$row[3].'</td><td>'.$row[2].'</td><td>'.$row[1].'</td><td>'.$row[4].'</td><td>'.$row[5].'</td><td>'.$row[6].'</td><td><input type="button" name="edit" value="Edit"> <input type="button" name="delete" value="Delete"></td></tr>';
-                            
-                        }
                         
-                        ?>
                     </table>
                 </td>
             </tr>

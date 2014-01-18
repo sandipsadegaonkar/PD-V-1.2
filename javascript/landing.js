@@ -100,14 +100,16 @@ $("#util").click(function (){
         
 });
 $(document).ready(function(){ 
-$('#CMC').click(function(){  
+$('#').click(function(){  
       $('#content_page').load('sub/master_cities.php');
       $('#content_page').css('display','block');
 $('#content_header').text(" >> Catalog >> Master Cities"); 
 });
- 
+ $(document).ready(function (){
+     
+ })
 
-$('#UDB').click(function(){
+$('#udb').click(function(){
     $('#content_page').slideDown("slow");
     $('#content_page').load('sub/database_backup.php');
     $('#content_page').css('display','block');
