@@ -11,7 +11,7 @@
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2">
                     <div style="height: 30px;width:150px;text-align:left">
-                        <span class='addarea_button_img' id='add_area' style="border-radius: 5px;cursor: pointer;">[<span class="aadarea_close" style="cursor: pointer;">+</span>]Add Area</span>
+                        <span class='addarea_button_img' id='add_area' style="border-radius: 5px;cursor: pointer;">[<span class="addarea_close" style="cursor: pointer;">+</span>]Add Area</span>
                     </div>
                     <br>
                     <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; display: none;" id="Master_addarea">

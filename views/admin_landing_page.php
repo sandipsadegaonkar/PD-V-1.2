@@ -94,7 +94,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                       </tr>
 
                  </table>
-            <div id="menu_effect" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
+            <div id="menu_effect" style="border: 1px solid;width:0px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
        
        <div id="noti1" class="submenu_style" style="display: none;"> 
@@ -136,7 +136,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                      </td>
                     </tr>
              </table>
-           <div id="menu_effect1" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
+           <div id="menu_effect1" style="border: 1px solid;width:0px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
     <div id="cata1" class="submenu_style" style="display: none;"> 
                  <div id="catalog_mc" class="submenu_inner_style"> 
@@ -173,7 +173,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                            </td>-->
                       </tr>
               </table>
-           <div id="menu_effect2" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
+           <div id="menu_effect2" style="border: 1px solid;width:0px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
          <div id="stor1" class="submenu_style" style="display: none;"> 
                  <div id="ss" class="submenu_inner_style"> 
@@ -204,7 +204,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                         </td>-->
                    </tr>
            </table>
-           <div id="menu_effect3" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
+           <div id="menu_effect3" style="border: 1px solid;width:0px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
        <div  id="syst1" class="submenu_style" style="display: none;"> 
                  <div id="sysu" class="submenu_inner_style"> 
@@ -229,7 +229,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                          </td>-->
                 </tr>
            </table>
-           <div id="menu_effect4" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
+           <div id="menu_effect4" style="border: 1px solid;width:0px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
        <div id="static1" class="submenu_style" style="display: none;"> 
                  <div id="scau" class="submenu_inner_style"> 
@@ -269,7 +269,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);"id="GridScroll" class="grid_scrol
                         </td>-->
                 </tr>
            </table>
-           <div id="menu_effect5" style="border: 1px solid;width:5px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
+           <div id="menu_effect5" style="border: 1px solid;width:0px;height:30px;background-color:#b14926;margin-top: -27px;margin-left: -1px;opacity: 0.5"></div>
        </div>
       
        <div id="util1" class="submenu_style" style="display: none;"> 

@@ -4,12 +4,12 @@ $(document).ready(function (){
       $("#Master_addarea").slideToggle("slow");
       if(n === 0)
       {
-          $(".aadarea_close").text("-");
+          $(".addarea_close").text("-");
           n=1;
       }
       else
       {
-          $(".aadarea_close").text("+");
+          $(".addarea_close").text("+");
           n=0;
       }
    });   

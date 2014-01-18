@@ -2,7 +2,7 @@
     <head>
         <title>Master_Cities</title>
         <link href="../css/master_cities.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
+<!--        <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>-->
         <script type="text/javascript" src="../javascript/master_cities.js"></script>
     </head>
     <body>
@@ -10,7 +10,7 @@
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2">
                     <div style="height: 30px;width:150px;text-align:left">
-                        <span class='addcities_button_img' id='add_cities' style="border-radius: 5px;cursor: pointer;">[+]Add Cities</span>
+                        <span class='addcities_button_img' id='add_cities' style="border-radius: 5px;cursor: pointer;">[<span class="addcities_close" style="cursor: pointer;">+</span>]Add Cities</span>
                     </div>
                     <br>
                     <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; display: none;" id="Master_addcities">
@@ -107,8 +107,8 @@
            
            <tr >
                 <td align="center" colspan="2">
-                    <table border="1" width="100%">
-                        <tr>
+                    <table border="1" width="100%" id="cities_data">
+<!--                        <tr>
                             <th>
                                 Country
                             </th>
@@ -136,7 +136,7 @@
                                 <span id="dat"></span>
                             </td>
                         </tr>
-                        
+                        -->
                     </table>
                 </td>
             </tr>

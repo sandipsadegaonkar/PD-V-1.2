@@ -14,7 +14,7 @@ session_start();
     <link href="css/index.css" rel="stylesheet" type="text/css"/>-->
     <link href="css/home.css" rel="stylesheet" type="text/css"/>
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="../javascript/login.js"></script>
+<!--    <script type="text/javascript" src="javascript/login.js"></script>-->
     <!--<script type="text/javascript" src="javascript/jquery-1.10.1-min.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>-->
     <style>
@@ -40,7 +40,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
                         User Name: 
                     </th>
                     <td>                             
-     <input type="text" id="user" placeholder="username" class="home_text" style="box-shadow: 3px 3px 5px #000000;"/>
+     <input type="text" id="user" placeholder="Username" class="home_text" style="box-shadow: 3px 3px 5px #000000;padding:5px 5px 5px 5px"/>
                </td>
                 </tr>
                 <tr>
@@ -48,7 +48,7 @@ box-shadow: -1px 3px 9px 7px rgba(0,0,0,0.75);">
                         Password: 
                     </th>
                     <td>
-                        <input type="password" id="pass" placeholder="Password" class="home_text" style=" box-shadow: 3px 3px 5px #000000;"/>
+                        <input type="password" id="pass" placeholder="Password" class="home_text" style=" box-shadow: 3px 3px 5px #000000;padding:5px 5px 5px 5px"/>
                     </td>
                 </tr>
              

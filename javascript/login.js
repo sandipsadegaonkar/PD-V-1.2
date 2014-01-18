@@ -92,7 +92,8 @@ $(document).ready(function(){
 //                                $(".f").text("Please cheack your regesterd email for username & password.");
                                 if(data==='true')
                                 {
-                                    $(".f").text("Please cheack your regesterd email for username & password.");
+                                    alert("Please cheack your regesterd email for username & password.");
+                                   // $(".f").text("");
                                 } 
 //                                else if(data==='false')
 //                                    {

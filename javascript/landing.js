@@ -120,12 +120,23 @@ $('#catalog_mc').click(function(){
                             url:'../controllers/admin_cities_data.php',
                             type:'GET',
                             data:{},
-                            success:function(data){
+                            success:function(result){
                                     $('#content_page').slideDown("slow");
                                     $('#content_page').load('sub/master_cities.php');
                                     $('#content_page').css('display','block');
                                     $('#content_header').text(" >> Catalog >> Master Cities");
-                                    $("#dat").html(data);
+                                  var data=$.parseJSON(result);
+                                    //alert(data);
+                                //alert(data[0]['cityId']);
+                                //json data add to table =cities_data
+                                var i,str="";
+                                str=str+"<tr><th>City Id</th><th>City Name</th></tr>";
+                                for(i=0;i<data.length;i++)
+                                {
+                                    str=str+"<tr><td>"+data[i]['cityId']+"</td><td>"+data[i]['cityName']+"</td></tr>";
+                                }   
+                                $('#cities_data').append(str);
+                                //alert(data);
                                     
                             }
                         });
@@ -161,7 +172,7 @@ $("#noti").mouseenter(function (){
 });
 $("#noti").mouseleave(function (){
    $("#menu_effect").animate({
-    width:'5'   
+    width:'0'   
 });
 });
 });
@@ -173,7 +184,7 @@ $("#cata").mouseenter(function (){
 });
 $("#cata").mouseleave(function (){
    $("#menu_effect1").animate({
-    width:'5'   
+    width:'0'   
 });
 });
 });
@@ -185,7 +196,7 @@ $("#stor").mouseenter(function (){
 });
 $("#stor").mouseleave(function (){
    $("#menu_effect2").animate({
-    width:'5'   
+    width:'0'   
 });
 });
 });
@@ -197,7 +208,7 @@ $("#syst").mouseenter(function (){
 });
 $("#syst").mouseleave(function (){
    $("#menu_effect3").animate({
-    width:'5'   
+    width:'0'   
 });
 });
 });
@@ -209,7 +220,7 @@ $("#static").mouseenter(function (){
 });
 $("#static").mouseleave(function (){
    $("#menu_effect4").animate({
-    width:'5'   
+    width:'0'   
 });
 });
 });
@@ -221,7 +232,7 @@ $("#util").mouseenter(function (){
 });
 $("#util").mouseleave(function (){
    $("#menu_effect5").animate({
-    width:'5'   
+    width:'0'   
 });
 });
 });

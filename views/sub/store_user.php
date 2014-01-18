@@ -79,6 +79,41 @@
                                   <input type="text" name="time_zone">
                                </td>
                           </tr>
+                           <tr>
+                              <td>
+                                  User Name 
+                              </td>
+                              <td>
+                                  <input type="text" name="user_name">
+                               </td>
+                          </tr>
+                           <tr>
+                              <td>
+                                  Password 
+                              </td>
+                              <td>
+                                  <input type="password" name="password">
+                               </td>
+                          </tr>
+                           <tr>
+                              <td>
+                                  Confirm Password 
+                              </td>
+                              <td>
+                                  <input type="password" name="confirm_password">
+                               </td>
+                          </tr>
+                              <tr>
+                              <td>
+                                Status 
+                              </td>
+                               <td style="width: 50%; height:5%;" align="left">
+                                    <select name="status">
+                                         <option>Active</option>
+                                         <option>Active</option>
+                                     </select>
+                                </td>                          
+                          </tr>
                           <tr>
                               <td colspan="2" >
                               </td>
@@ -89,8 +124,8 @@
                                 
                               </td>
                               <td  width="100%" >
-                                  <input type="button" name="submit" value="Add" style="width: 70px ;" class='addcities_button_img'>
-                                  <input type="reset" name="reset" value="Clear" style="width: 70px ;" class='addcities_button_img'>
+                                  <input type="button" name="savechange" value="Save Change" style="width: 70px ;" class='addstore_button_img'>
+                                  <input type="reset" name="cancle" value="Cancle" style="width: 70px ;" class='addstore_button_img'>
                               </td>
                           </tr>
                       </table></center>

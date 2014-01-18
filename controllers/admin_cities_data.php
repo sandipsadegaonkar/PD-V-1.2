@@ -1,15 +1,16 @@
 <?php
 $con= mysql_connect("localhost","root","");
-$data="<table>";
 if($con)
-{
+{   $i=0;
     mysql_select_db("pd");
     $result=  mysql_query("select * from cities");
     while($row=  mysql_fetch_array($result))
     {
-        $data.="<tr><td>".$row[0]."</td><td>".$row[1]."</td><td>".$row[2]."</td><td>".$row[3]."</td><td>".$row[4]."</td><td>".$row[5]."</td><td>".$row[6]."</td><td></tr>";
+        $data[$i]['cityId']=$row[0];
+        $data[$i]['cityName']=$row[1];
+        $i++;
     }
-    $data.="</table>";
-    echo $data;
+    $myjson=json_encode($data);
+    echo $myjson;
 }
 ?>
