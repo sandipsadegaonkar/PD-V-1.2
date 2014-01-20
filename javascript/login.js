@@ -35,7 +35,6 @@ $(document).ready(function(){
                                         $("#error").text(data);
                                         $('#user').val("");
                                         $('#pass').val("");
-                                        $(".home_text").css("border-color","red");
                                     }
                             }
                         });
@@ -45,7 +44,6 @@ $(document).ready(function(){
                                         $('#user').val("");
                                         $('#pass').val("");
                                         $("#error").text(" ");
-                                        $(".home_text").css("border-color","#FFFFFF");
                                         $('#remember').prop("checked",false);
                         });
                         

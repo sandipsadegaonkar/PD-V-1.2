@@ -16,7 +16,7 @@
                     </div>
                     <br>
 <!--                 <div class="divider row panel"> -->
-                        <div class="divider row panel" id="add_store1">
+<div class="divider row panel" id="add_store1" style="display: none;">
                             <b><h> Add store information:</h></b>
                           <hr>
                             <div class="large-12 columns">
@@ -81,7 +81,7 @@
                           </div>
                         </div>
                         <div class="divider row panel">
-                            <div class=" step fi-folder-add size-36" style="font-size: 38px;width: 100px;border: 1px solid;">
+                            <div style="font-size: 38px;width:50px; height: 40px;border: 1px solid;">
                                 
                             </div>                          
                   </div>

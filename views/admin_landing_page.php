@@ -68,9 +68,11 @@ else
                     <div class="sp" style="border: 0px solid; margin-top: 0.3rem; margin-left: 0.2rem;">
                         +
                     </div>
-                    <div style="border: 0px solid; width: 8rem; margin-top: -1rem; margin-left: 1.2rem;">Notification</div>
-                    <div class="notification_img" style="border: 0px solid; width: 1.5rem; margin-top: -1.6rem; margin-left: 10rem;">
-                        11
+                    <div style="border: 0px solid; width: 8rem; margin-top: -1rem; margin-left: 1.2rem;">
+                        Notification
+                    </div>
+                    <div class="notification_img">
+                        11123
                     </div>
                 </div>
                 

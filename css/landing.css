@@ -49,22 +49,19 @@
 
 .notification_img
 {
-     background-color: dodgerblue;
-    width:25px;
-    height:25px;
+    background-color: dodgerblue;
+    width: auto;
+    height: auto;
     color: #ffffff;
     font-size:18px;
-    font-style:normal;
     text-align: center;
-    padding-top:-5px;
+    padding-top:0.2rem;
     font-family:Calibri; 
-    box-shadow: 0px 5px 3px #000000;
-/*    opacity:0.9;    */
     border: 1px solid; 
     border-radius:5px; 
-    margin-top: -10px; 
-    margin-right: 0px;
-    margin-left: 60px;
+    border: 1px  #000000;
+    margin-top: -1.6rem;
+    margin-left: 10rem;
 }
 .notification_img:hover
 {

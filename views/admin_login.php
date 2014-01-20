@@ -25,7 +25,7 @@ session_start();
         <center><img src="images/icon.jpg" /></center>
         <br>
         <center><img src="images/line.jpg"/></center>
-        <p align="center" id="error"></p>
+        <p align="center" id="error" style="color:#9E0C0F"></p>
         <br>
         <center>
         <div class="row">
