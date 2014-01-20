@@ -13,6 +13,7 @@
 <!--	<link rel="shortcut icon" href="images/Logo.jpg" type="image/x-icon"/>
 	<link href="css/index.css" rel="stylesheet" type="text/css"/>
         <link href="css/home.css" rel="stylesheet" type="text/css"/>-->
+<link href="css/foundation.css" rel="stylesheet"></link>
         <script type="text/javascript" src="javascript/jquery-1.10.1-min.js"></script>
         <script type="text/javascript" src="javascript/jquery-1.10.2.js"></script>
 <script type="text/javascript" src="javascript/login.js"></script>

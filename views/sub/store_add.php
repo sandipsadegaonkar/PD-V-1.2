@@ -3,33 +3,32 @@
 <html>
     <head>
         <title>Add Store </title>
-        
-        <link href="../../css/store_menu.css" rel="stylesheet" type="text/css"/>
+       <link href="../../css/foundation_store.css" rel="stylesheet" type="text/css"/>
      <script type="text/javascript" src="../../javascript/jquery-1.10.2.js"></script>
      <script type="text/javascript" src="../../javascript/store.js"></script>
     </head>
     <body>
-        <table width="100%">
+        <table width="100%" border="1px solid">
             <tr>
                 <td style="width: 100%; height:5%;" colspan="2" border="1px solid">
-                    <div style="height: 30px;width:150px;text-align:left ;">
-                        <span class='addstore_button_img' id='add_store' style="border-radius: 5px;cursor: pointer;border: 1px solid">[+]Add Store </span>
+                    <div class="large-12 columns">
+                        <span class="small radius button" id='add_store' style="border-radius: 5px;cursor: pointer;border: 1px solid">[+]Add Store </span>
                     </div>
                     <br>
                 
-                <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; border: 1px solid; display: none;" id="add_store1">
+                <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; id="add_store1">
                   
-                        <table width ="70%">
+                    <table width ="100%">
                             <tr>
-                                <td colspan="2" align="center" style="text-indent: 20px"><b> Add Store information:</b> </td>
+                                <td align="center" style="text-indent: 20px"><b> Add Store information:</b> </td>
                             </tr>
                             <tr>
-                                <td align="right">
-                                    Agency:
-                                </td>
+<!--                                 <td align="right">
+                                    Agency Name
+                                </td>-->
                                 <td style="width: 50%; height:5%;" align="left">
-                                    <select name="agency_list">
-                                         <option>All</option>
+                                    <select name="agency_name">
+                                         <option>Agency Name </option>
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
@@ -38,12 +37,13 @@
                                 </td>
                             </tr>
                              <tr>
-                                <td align="right">
-                                    Country:
-                                </td>
+<!--                          <td align="right">
+                                    country:
+                                </td>-->
+ 
                                 <td style="width: 50%; height:5%;" align="left">
                                     <select name="country_list">
-                                         <option>All</option>
+                                        <option>Country</option>
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
@@ -52,12 +52,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td align="right">
-                                    City:
-                                </td>
+<!--                                 <td align="right">
+                                    city:
+                                 </td>-->
                                 <td style="width: 50%; height:5%;" align="left">
                                     <select name="city_list">
-                                         <option>All</option>
+                                         <option>City</option>
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
@@ -67,12 +67,12 @@
                             </tr>
                            
                             <tr>
-                                <td align="right">
+<!--                                <td align="right">
                                     Area:
-                                </td>
+                                </td>-->
                                 <td style="width: 50%; height:5%;" align="left">
                                     <select name="area_list">
-                                         <option>All</option>
+                                         <option>Area List</option>
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
@@ -81,33 +81,34 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td align ="right">
+<!--                                <td align ="right">
                                     Store Name:
-                                </td>
+                                </td>-->
                                 <td>
-                                     <input type="text" name="store_name"> 
+                                    <input type="text" name="store_name" placeholder="Store Name"> 
                                 </td>
                             </tr>
                             <tr>
-                              <td align="right">
+<!--                              <td align="right">
                                  Longitude:
-                              </td>
+                              </td>-->
                               <td>
-                                <input type="text" name="addcity_longitude"> 
+                                  <input type="text" name="addcity_longitude" placeholder="Longitude" 
                               </td>                              
                           </tr>     
                           <tr>
-                              <td align="right">
+<!--                              <td align="right">
                                  Latitude:
-                              </td>
+                              </td>-->
                               <td>
-                                <input type="text" name="addstore_latitude"> 
+                          <input type="text" name="addstore_latitude" placeholder="Latitude"> 
                               </td>                              
                           </tr>
                           <tr>
-                              <td align="right"> Status:</td>
+<!--                              <td align="right"> Status:</td>-->
                               <td style="width: 50%; height:5%;" align="left">
                                     <select name="status_list">
+                                        <option> Status List </option>
                                          <option>Active</option>
                                          <option>Inactive </option>
                                    </select>
@@ -118,8 +119,8 @@
                                   
                               </td>
                               <td align="left">
-                                  <input type="button" name="save_changes" value="Save Changes" style="width: 110px ;"class='addstore_button_img'>
-                                  <input type="button" name="cancel" value="Cancel" style="width: 70px ;" class='addstore_button_img'>
+                                  <input type="button" name="save_changes" value="Save Changes" style="width: 110px ;"class='small radius button'>
+                                  <input type="button" name="cancel" value="Cancel" style="width: 70px ;" class='small radius button'>
                               </td>
                           </tr>
                       </table> 
