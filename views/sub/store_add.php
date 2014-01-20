@@ -4,130 +4,96 @@
     <head>
         <title>Add Store </title>
        <link href="../../css/foundation_store.css" rel="stylesheet" type="text/css"/>
+       <link href="../../css/foundation-icons.css" rel="stylesheet" type="text/css"/>
+       
      <script type="text/javascript" src="../../javascript/jquery-1.10.2.js"></script>
      <script type="text/javascript" src="../../javascript/store.js"></script>
     </head>
     <body>
-        <table width="100%" border="1px solid">
-            <tr>
-                <td style="width: 100%; height:5%;" colspan="2" border="1px solid">
-                    <div class="large-12 columns">
-                        <span class="small radius button" id='add_store' style="border-radius: 5px;cursor: pointer;border: 1px solid">[+]Add Store </span>
+        <div class="panel" style="width: 600px">
+                     <div class="small radius button callout" id='add_store' >
+                         [+]Add Store   
                     </div>
                     <br>
-                
-                <div style="border: 1px #e7e7e7 inset; box-shadow: 1px 1px 2px #bbbbbb; id="add_store1">
-                  
-                    <table width ="100%">
-                            <tr>
-                                <td align="center" style="text-indent: 20px"><b> Add Store information:</b> </td>
-                            </tr>
-                            <tr>
-<!--                                 <td align="right">
-                                    Agency Name
-                                </td>-->
-                                <td style="width: 50%; height:5%;" align="left">
-                                    <select name="agency_name">
-                                         <option>Agency Name </option>
+<!--                 <div class="divider row panel"> -->
+                        <div class="divider row panel" id="add_store1">
+                            <b><h> Add store information:</h></b>
+                          <hr>
+                            <div class="large-12 columns">
+                                <label> Agency Name</label>
+                                  <select name="agency_name">
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
                                         <option>All</option>
                                    </select>
-                                </td>
-                            </tr>
-                             <tr>
-<!--                          <td align="right">
-                                    country:
-                                </td>-->
- 
-                                <td style="width: 50%; height:5%;" align="left">
-                                    <select name="country_list">
-                                        <option>Country</option>
+                            </div>
+                          <div class="large-12 columns">
+                                 <label> Country </label>
+                              <select name="country_list">
+                                        <option>All </option>
+                                         <option>All</option>
+                                         <option>All</option>
+                                        <option>All</option>
+                                   </select>
+                          </div>
+                          <div class="large-12 columns">
+                              <label> City </label>
+                               <select name="city_list">
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
                                         <option>All</option>
                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-<!--                                 <td align="right">
-                                    city:
-                                 </td>-->
-                                <td style="width: 50%; height:5%;" align="left">
-                                    <select name="city_list">
-                                         <option>City</option>
-                                         <option>All </option>
-                                         <option>All</option>
-                                         <option>All</option>
-                                        <option>All</option>
-                                   </select>
-                                </td>
-                            </tr>
-                           
-                            <tr>
-<!--                                <td align="right">
-                                    Area:
-                                </td>-->
-                                <td style="width: 50%; height:5%;" align="left">
-                                    <select name="area_list">
+                          </div>
+                          <div class="large-12 columns">
+                              <label> Area List </label>
+                             <select name="area_list">
                                          <option>Area List</option>
                                          <option>All </option>
                                          <option>All</option>
                                          <option>All</option>
                                         <option>All</option>
-                                   </select>
-                                </td>
-                            </tr>
-                            <tr>
-<!--                                <td align ="right">
-                                    Store Name:
-                                </td>-->
-                                <td>
-                                    <input type="text" name="store_name" placeholder="Store Name"> 
-                                </td>
-                            </tr>
-                            <tr>
-<!--                              <td align="right">
-                                 Longitude:
-                              </td>-->
-                              <td>
-                                  <input type="text" name="addcity_longitude" placeholder="Longitude" 
-                              </td>                              
-                          </tr>     
-                          <tr>
-<!--                              <td align="right">
-                                 Latitude:
-                              </td>-->
-                              <td>
-                          <input type="text" name="addstore_latitude" placeholder="Latitude"> 
-                              </td>                              
-                          </tr>
-                          <tr>
-<!--                              <td align="right"> Status:</td>-->
-                              <td style="width: 50%; height:5%;" align="left">
-                                    <select name="status_list">
-                                        <option> Status List </option>
+                                   </select>  
+                          </div>
+                          <div class="large-12 columns">
+                              <label>Store Name</label>
+                               <input type="text" name="store_name" placeholder="Store Name"> 
+                          </div>
+                          <div class="large-12 columns">
+                              <label> Longitude</label>
+                                <input type="text" name="addcity_longitude" placeholder="Longitude" >
+                          </div>
+                          <div class="large-12 columns">
+                              <label>Latitude </label>
+                              <input type="text" name="addstore_latitude" placeholder="Latitude">  
+                          </div>
+                          <div class="large-12 columns">
+                              <label>Status </label>
+                               <select name="status_list">
                                          <option>Active</option>
                                          <option>Inactive </option>
                                    </select>
-                                </td>
-                          </tr>
-                          <tr>
-                              <td >
-                                  
-                              </td>
-                              <td align="left">
-                                  <input type="button" name="save_changes" value="Save Changes" style="width: 110px ;"class='small radius button'>
-                                  <input type="button" name="cancel" value="Cancel" style="width: 70px ;" class='small radius button'>
-                              </td>
-                          </tr>
-                      </table> 
-                    </div>
-                   </td>
-            </tr>
-             <tr>
+                          </div>
+                          <div class="large-12 columns" style="margin-left:100px ">
+                             <input type="button" name="save_changes" value="Save Changes" class='small radius button'>
+                              <input type="button" name="cancel" value="Cancel"  class='small radius button'>  
+                          </div>
+                        </div>
+                        <div class="divider row panel">
+                            <div class=" step fi-folder-add size-36" style="font-size: 38px;width: 100px;border: 1px solid;">
+                                
+                            </div>                          
+                  </div>
+                  </div>                  
+<!--        </div>-->
+                  
+              
+                    
+</body>
+</html>                    
+        
+<!--             <tr>
                 <td colspan="2"><hr></td>
             </tr>
              <tr>
@@ -164,6 +130,6 @@
                         </tr>
             <tr>
          </table> 
-        </table>
-    </body>
-</html>
+        </table>-->
+      
+    

@@ -20,33 +20,32 @@ session_start();
     <script type="text/javascript" src="javascript/index.js"></script>-->
 </head>
 <body> 
-   <br>
-   
    <div class="panel">
         <br>
         <center><img src="images/icon.jpg" /></center>
         <br>
         <center><img src="images/line.jpg"/></center>
-        <p id="error"></p>
+        <p align="center" id="error"></p>
         <br>
-        <div class="panel">
-        <center>    <div class="large-4">
+        <center>
+        <div class="row">
+            <div class="large-4 medium-4">
         <div class="row collapse">
     <div class="small-9 columns">
         <input type="text" placeholder="Username" id="user"></input>
     </div>
     <div class="small-3 columns">
-        <span class="postfix"><div class="fi-torso "></div>></span>
+        <span class="postfix"><i class="fi-torso" style="font-size: 24px"></i></span>
     </div>
         </div>
             </div>
-            <div class="large-4">
+            <div class="large-4 medium-4">
         <div class="row collapse">
     <div class="small-9 columns">
-        <input type="text" placeholder="Password" id="pass"></input>
+        <input type="password" placeholder="Password" id="pass"></input>
     </div>
     <div class="small-3 columns">
-        <span class="postfix"><div class="fi-key" ></div>></span>
+        <span class="postfix"><div class="fi-key" style="font-size: 24px"></div>></span>
     </div>
         </div></div>
 <div class="large-4">
@@ -55,70 +54,41 @@ session_start();
         </div></div>
             <div class='small radius button' id='reset'>Reset</div>
         <div class='small radius button' id='login'>Login</div>
-        </center>
+        
         </div>
+        </center>
         <br>
         <center><img src="images/line.jpg"/></center>
-        <br><br><br>
-        <center><div class="home_text" style="font-size: 15px">
+        <br><br>
+        <center><div class="text-center" style="font-size: 15px">
                 <a id='for' href="javascript:click()"><span class="f">Did you forget your password?</span></a>
-        </div></center>
-        <br/>
-        <div class="forget" style="width: 100%;height: 90px;display: none;background-color:#aabbcc;margin-top: -85px">
+        </div>
+     <br> <br><br>
+        <div class="forget panel" style="width: 100%;height: 120px;display: none;background-color:#aabbcc;margin-top: -85px">
             <div align="right"><img src="images/Close.ico" height="15px" width="15px" id="close" style="cursor: pointer"/></div>
-<!--            <center>
-                <table>
-                    <tr>
-                        <th align='right' class="home_text">
-                            Email ID :
-                        </th>
-                        <td>
-                            <input type="text" placeholder="Email" id='email'/>
-                        </td>
-                        <td>
-                            <div class='small radius button' id="ok" style="border-radius: 5px;cursor: pointer;">Submit</div>
-                        </td>
-                        </tr><tr>
-                            <td colspan="3" align="center">
-                            <img id="process" src="images/process.gif" style="width: 30px;height: 30px;display: none">
-                        </td>
-                      
-                    </tr>
-                    
-                </table>
-            </center>-->
-            <div class="row">
-        <center>    
-            <div class="large-4">
+           
+            <table style="background-color: #aabbcc;border: 0px;margin-top: -10px"><tr><td>
+            <div class="large-4 medium-4" style="width: 500px">
         <div class="row collapse">
     <div class="small-9 columns">
-        <input type="text" placeholder="Username" id="user"></input>
+        <input type="text" placeholder="example@sample.com" id="email" ></input>
     </div>
     <div class="small-3 columns">
-        <span class="postfix"><div class="fi-torso "></div>></span>
+        <span class="postfix"><div class="fi-mail" style="font-size: 24px"></div></span>
     </div>
         </div>
             </div>
-<div class="large-4">
-        <div class="row collapse">
-            <div class='small radius button' id="ok" style="border-radius: 5px;cursor: pointer;">Submit</div>
-        </div></div>
-        </center>
-        </div>
+                    </td><td>
+        <div class='small radius button' id="ok">Submit</div>
+                    </td>
+                </tr>
+            </table>
+       
             
         </div>
             
     </div>  
-<!--   <div class="row collapse">
-    <div class="small-9 columns">
-        <input type="text" placeholder="small-9.columns"></input>
-    </div>
-    <div class="small-3 columns">
-        <span class="postfix">.com</span>
-    </div>-->
-
-</div>
-				        
+   <br>	        
 </body>
 </html>
 

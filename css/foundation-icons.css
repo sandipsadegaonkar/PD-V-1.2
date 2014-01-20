@@ -418,7 +418,7 @@
 .fi-lock:before { content: "\f16a"; }
 .fi-loop:before { content: "\f16b"; }
 .fi-magnifying-glass:before { content: "\f16c"; }
-.fi-mail:before { content: "\f16d"; }
+.fi-mail:before { content: "\f16d";}
 .fi-male-female:before { content: "\f16e"; }
 .fi-male-symbol:before { content: "\f16f"; }
 .fi-male:before { content: "\f170"; }

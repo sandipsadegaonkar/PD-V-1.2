@@ -20,17 +20,16 @@
 </head>
 <body>
 
-    <div id="t1" style="width: 960px;height: 550px;margin: 0px auto 0px auto;">
+    <div id="t1" style="width: 900px;height:550px;margin: 0px auto 0px auto;">
   
-            <div id='content' style='width:960px;height:550px;'>
+            <!--<div id='content' class="row" style='width:960px;height:550px;'>-->
                   <?php include 'views/admin_login.php';?>
-            </div>
-        <br>
-        <center><div style="width: 500px;height: 30px;text-align: center" >
+            <!--</div>-->  
+        <!--<div class="row" style="width: 960px">-->
                  <?php include 'views/footer.php'; ?>
-            </div> </center>
-    </div>
-                
+            <!--</div>-->
+        
+    </div>                
 	           
 </body>
 </html>
