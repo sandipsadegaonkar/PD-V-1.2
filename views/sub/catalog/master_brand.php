@@ -21,41 +21,25 @@
         <form data-abide id='add_brand_form'>   
           <div class="large-12 row collapse">
                 <div class="small-9 columns"> 
-                     <select name="city">
-                                <option>Pune</option>
-                                <option>Mumbai</option>                      
-                            </select>
+                    <input type="text" name="brand_name" placeholder="Brand Name">
                 </div>
                 <div class='small-3 columns'>
-                    <label class="postfix"> City Name</label>
+                    <label class="postfix"> Brand Name</label>
                 </div>                  
           </div>
-          <div class="large-12 row collapse">
-                <div class="small-9 columns"> 
-                    <input type="text" name="addarea_name" placeholder="Area Name">
-                </div>
-                <div class='small-3 columns'>
-                    <label class="postfix"> Area Name</label>
-                </div>                  
-          </div> 
-         
-          <div class="large-12 row collapse">
-                <div class="small-9 columns"> 
-                    <input type="text" name="addcity_longitude" placeholder="Longitude">
-                </div>
-                <div class='small-3 columns'>
-                    <label class="postfix"> Longitude</label>
-                </div>                  
-          </div>  
-          <div class="large-12 row collapse">
-                <div class="small-9 columns"> 
-                    <input type="text" name="addcity_latitude" placeholder="Latitude">
-                </div>
-                <div class='small-3 columns'>
-                    <label class="postfix">Latitude</label>
-                </div>                  
-          </div>
+            
             <div class="large-12 row collapse">
+                <div class='small-8 columns '>
+                    <input type="file" name="brand_image">
+                </div>             
+                <div class='small-3 columns'>
+                    <label class="postfix"> Brand Image</label>
+                </div>            
+                        
+          </div>
+         
+          
+          <div class="large-12 row collapse">
                 <div class="small-9 columns"> 
                    <select name="status">
                                    <option>Active</option>
@@ -95,7 +79,6 @@
               <div class="row">
                   <div class="small-2 columns left">
                         <select name="records_per_page">
-                              <option>5</option>
                               <option>10</option>
                               <option>15</option>
                               <option>20</option>                              
@@ -107,19 +90,16 @@
                     <table width="100%">
                         <tr>
                             <th>
-                                Country
+                                Brand Id
                             </th>
                             <th>
-                                State
+                                Brand Logo
                             </th>
                             <th>
-                                City
+                                Brand Name
                             </th>
                             <th>
-                                Latitude
-                            </th>
-                            <th>
-                                Longitude
+                                Published
                             </th>
                             <th>
                                 Status
@@ -131,5 +111,14 @@
                         
                     </table>
                </div>
+               <div class="pagination-centered">
+            <ul class="pagination">
+                 <li class="arrow"><a href="">&laquo;</a></li>
+                 <li class=""><a href="">Pervious</a></li>
+                 <li class="unavailable"><a href="">1</a></li>
+                 <li><a href="" class="">Next</a></li>
+                 <li class="arrow"><a href="">&raquo;</a></li>
+             </ul>
+          </div>
     </body>
 </html>

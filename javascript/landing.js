@@ -156,11 +156,33 @@ $('#catalog_mb').click(function(){
 $('#content_header').text(" > Catalog >> Master Brand"); 
 });
 
+
+$('#catalog_mcat').click(function(){ 
+    $('#content_page_body').slideDown("slow");
+      $('#content_page_body').load('sub/catalog/master_categories.php');
+      $('#content_page_body').css('display','block');
+$('#content_header').text(" > Catalog >> Master Categories"); 
+});
+
 $('#udb').click(function(){
     $('#content_page_body').slideDown("slow");
     $('#content_page_body').load('sub/utility/database_backup.php');
     $('#content_page_body').css('display','block');
     $('#content_header').text(" > Utility >> Database Backup"); 
+      
+ });
+ $('#ssp').click(function(){
+    $('#content_page_body').slideDown("slow");
+    $('#content_page_body').load('sub/store/store_profile.php');
+    $('#content_page_body').css('display','block');
+    $('#content_header').text(" > Store >> Store Profile"); 
+      
+ });
+ $('#sysu').click(function(){
+    $('#content_page_body').slideDown("slow");
+    $('#content_page_body').load('sub/system/system_user.php');
+    $('#content_page_body').css('display','block');
+    $('#content_header').text(" > System >> System User"); 
       
  });
  $('#ss').click(function(){

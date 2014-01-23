@@ -1,60 +1,50 @@
 <html>
     <head>
-        <title>Master_Area</title> 
+        <title>Master_Categories</title> 
         <!--<link href="../css/master_area.css" rel="stylesheet" type="text/css"/>-->
         <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="../javascript/jquery-1.10.1-min.js"></script>
-        <script type="text/javascript" src="../javascript/master_area.js"></script>
+        <script type="text/javascript" src="../javascript/master_categories.js"></script>
     </head>
     <body>
         
 <!--        <div class="">
                   <span class='addarea_button_img' id='add_area' style="border-radius: 5px;cursor: pointer;">[<span class="addarea_close" style="cursor: pointer;">+</span>]Add Area</span>
            </div>-->
-<div class="medium radius button callout" id='add_area' >
-                         [<span class="addarea_close">+</span>]Add Area  
-                    </div>
+                <div class="medium radius button callout" id='add_categories'>
+                         [<span class="addcategories_close">+</span>]Add Categories
+                </div>
+                <div class="medium radius button callout" id='manage_categories'>
+                    Manage Categories
+                </div>
                  <br>
-                 <div class="panel small-9 hide" id="Master_addarea">                  
-              <i class="fi-clipboard-pencil" style="font-size:30px"></i> <b><h> Add Area information:</h></b>
+                 <div class="panel small-9 hide" id="Master_addcategories">                  
+              <i class="fi-clipboard-pencil" style="font-size:30px"></i> <b><h> Add categories information:</h></b>
         <hr>        
-        <form data-abide id='add_cities_form'>   
+        <form data-abide id='add_categories_form'>   
+            
+          <div class="large-12 row collapse">
+                <div class="small-9 columns"> 
+                    <input type="text" name="addcategories_name" placeholder="Categories Name">
+                </div>
+                <div class='small-3 columns'>
+                    <label class="postfix">Categories Name</label>
+                </div>                  
+          </div> 
+            
           <div class="large-12 row collapse">
                 <div class="small-9 columns"> 
                      <select name="city">
-                                <option>Pune</option>
-                                <option>Mumbai</option>                      
+                                <option>Electronic</option>
+                                <option>Automobile</option>
+                                <option>Books</option>
                             </select>
                 </div>
                 <div class='small-3 columns'>
-                    <label class="postfix"> City Name</label>
+                    <label class="postfix"> Parent Categories Name</label>
                 </div>                  
           </div>
-          <div class="large-12 row collapse">
-                <div class="small-9 columns"> 
-                    <input type="text" name="addarea_name" placeholder="Area Name">
-                </div>
-                <div class='small-3 columns'>
-                    <label class="postfix"> Area Name</label>
-                </div>                  
-          </div> 
          
-          <div class="large-12 row collapse">
-                <div class="small-9 columns"> 
-                    <input type="text" name="addcity_longitude" placeholder="Longitude">
-                </div>
-                <div class='small-3 columns'>
-                    <label class="postfix"> Longitude</label>
-                </div>                  
-          </div>  
-          <div class="large-12 row collapse">
-                <div class="small-9 columns"> 
-                    <input type="text" name="addcity_latitude" placeholder="Latitude">
-                </div>
-                <div class='small-3 columns'>
-                    <label class="postfix">Latitude</label>
-                </div>                  
-          </div>
             <div class="large-12 row collapse">
                 <div class="small-9 columns"> 
                    <select name="status">
@@ -67,8 +57,8 @@
                 </div>                  
           </div> 
           
-               <button type="reset" id='reset_cities_button' class="medium radius">Reset</button>                                                                                 
-               <button type="submit" id='add_cities_button' class="medium radius">Add</button>                                                         
+               <button type="reset" id='reset_categories_button' class="medium radius">Reset</button>
+               <button type="submit" id='add_categories_button' class="medium radius">Add Categories</button> 
            
          </form>
                    </div>
@@ -80,7 +70,7 @@
                    <div class="callout">
                        <div>
                            <span class="fi-folder-add" style="font-size: 45px ;"></span>
-                            <div style=" width: 100px; margin-left: 40px; font-size: 20px; margin-top: -2rem;">Area</div>
+                            <div style=" width: 100px; margin-left: 40px; font-size: 20px; margin-top: -2rem;">Categories</div>
                        </div>
                    </div>        
                    <div class="medium-4 columns" style="margin-top: -32px;"><div class="row collapse">
@@ -107,19 +97,13 @@
                     <table width="100%">
                         <tr>
                             <th>
-                                Country
+                                Category Id
                             </th>
                             <th>
-                                State
+                                Category Name
                             </th>
                             <th>
-                                City
-                            </th>
-                            <th>
-                                Latitude
-                            </th>
-                            <th>
-                                Longitude
+                                Parent Category
                             </th>
                             <th>
                                 Status

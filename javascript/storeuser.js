@@ -4,12 +4,12 @@ $(document).ready(function(){
         $("#store_user1").slideToggle("slow");
          if(n === 0)
         {
-          $(".add_store_user_b").text(" -");
+          $(".add_profile_b").text(" -");
           n=1;
         }
         else
         {
-          $(".add_store_user_b").text("+");
+          $(".add_profile_b").text("+");
           n=0;
         }
         });

@@ -14,10 +14,10 @@
     <body>
         <div>
            <div class="medium radius button callout" id='backup'>
-               <i class="fi-download " style="font-size: 24px;"></i> Click to Backup
+               <i class="fi-download" style="font-size: 24px;"></i> Click to Backup
            </div>
             <div class="panel">
-                <div class="callout panel">
+                <div class="tsmall-12 callout panel">
                     <i class="fi-align-justify" style="font-size:24px;"></i>   Database Dump
                 </div>
                 <div>
@@ -30,8 +30,18 @@
                         <tr>
                             <th style="text-align:left;width:60%;"> </th>
                             <th style="width:20%;"> <i class="fi-trash" style="color:#cc0033 ; font-size: 25px;"></i> </th>
-                            <th style="width:20%;"> </th>
-                        </tr>                        
+                            <th style="width:20%;"> <i class="fi-download" style="color: green; font-size: 25px;"></i></th>
+                        </tr>  
+                        <tr>
+                            <th style="text-align:left;width:60%;"> </th>
+                            <th style="width:20%;"> <i class="fi-trash" style="color:#cc0033 ; font-size: 25px;"></i> </th>
+                            <th style="width:20%;"> <i class="fi-download" style="color: green; font-size: 25px;"></i></th>
+                        </tr>  
+                        <tr>
+                            <th style="text-align:left;width:60%;"> </th>
+                            <th style="width:20%;"> <i class="fi-trash" style="color:#cc0033 ; font-size: 25px;"></i> </th>
+                            <th style="width:20%;"> <i class="fi-download" style="color: green; font-size: 25px;"></i></th>
+                        </tr>  
                     </table>
                 </div>
             </div>

@@ -93,11 +93,10 @@
                                <div class='small-3 columns'>
                                    <label class="postfix">Status </label></div>
                           </div>
-                          <div class="large-12 columns">
+                         
                                <button type="submit" class='medium radius button' id="add_store_save_changes">Save Changes </button>
                                <button type="submit" class='medium radius button' id="add_store_reset">Reset </button>
-                          </div>
-                             </form>
+                                      </form>
                         </div>
                         <div class="panel">
                             <div> 
