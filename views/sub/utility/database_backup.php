@@ -32,16 +32,6 @@
                             <th style="width:20%;"> <i class="fi-trash" style="color:#cc0033 ; font-size: 25px;"></i> </th>
                             <th style="width:20%;"> <i class="fi-download" style="color: green; font-size: 25px;"></i></th>
                         </tr>  
-                        <tr>
-                            <th style="text-align:left;width:60%;"> </th>
-                            <th style="width:20%;"> <i class="fi-trash" style="color:#cc0033 ; font-size: 25px;"></i> </th>
-                            <th style="width:20%;"> <i class="fi-download" style="color: green; font-size: 25px;"></i></th>
-                        </tr>  
-                        <tr>
-                            <th style="text-align:left;width:60%;"> </th>
-                            <th style="width:20%;"> <i class="fi-trash" style="color:#cc0033 ; font-size: 25px;"></i> </th>
-                            <th style="width:20%;"> <i class="fi-download" style="color: green; font-size: 25px;"></i></th>
-                        </tr>  
                     </table>
                 </div>
             </div>

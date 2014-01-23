@@ -278,7 +278,7 @@ else
                 
            
         </div>
-              <div class="medium-9 columns right">                              
+                <div class="medium-9 columns right " style="background-image: url('../images/icon.JPG');">                              
                 <div class="row panel">
             <a href="admin_landing_page.php">Home</a>
             <span id="content_header"></span>

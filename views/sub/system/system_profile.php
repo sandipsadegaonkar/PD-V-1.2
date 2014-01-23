@@ -4,7 +4,7 @@
         <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
         <!--<link href="../css/master_cities.css" rel="stylesheet" type="text/css"/>-->        
         <!--<link href="../css/login.css" rel="stylesheet" type="text/css"/>-->        
-        <!--<script type="text/javascript" src="../javascript/system_profile.js"></script>-->
+        <script type="text/javascript" src="../javascript/system_profile.js"></script>
         <link href="../css/foundation-icons.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>        
@@ -19,76 +19,21 @@
          <form data-abide id='add_System_profile_form'>   
           <div class="large-12 row collapse">
                 <div class='small-4 columns left'>
-                    <label class="postfix">First Name</label>
+                    <label class="postfix">Profile Name</label>
                 </div>  
                 <div class="small-8 columns right"> 
-                     <input type="text" name="add_sys_profile_firstname">
+                     <input type="text" name="add_sys_profilename">
                 </div>
           </div>
           <div class="large-12 row collapse">
                <div class='small-4 columns left'>
-                    <label class="postfix">Last Name</label>
+                    <label class="postfix">Access Permission</label>
                 </div>  
               <div class="small-8 columns right"> 
                      <input type="text" name="add_sys_profile_lastname">
                 </div>                          
           </div>
-          <div class="large-12 row collapse">
-                <div class="small-8 columns"> 
-                     <input type="text" name="add_sys_city_Email">
-                </div>
-                <div class='small-4 columns'>
-                    <label class="postfix"> Email</label>
-                </div>                  
-          </div> 
-          <div class="large-12 row collapse">
-                <div class="small-8 columns"> 
-                    <select name="add_sys_branch">
-                        <option>Head Office</option>
-                        <option>Sub Branch</option>
-                    </select>
-                </div>
-                <div class='small-4 columns'>
-                    <label class="postfix"> Branch</label>
-                </div>                  
-          </div> 
-          <div class="large-12 row collapse">
-                <div class="small-8 columns"> 
-                    <select name="add_sys_Time_zone">
-                        <option>
-
-                        </option>
-                    </select>
-                </div>
-                <div class='small-4 columns'>
-                    <label class="postfix"> Time Zone</label>
-                </div>                  
-          </div>  
-                  
-<div class="large-12 row collapse">
-                <div class="small-8 columns"> 
-                     <input type="text" name="add_sys_profilename">
-                </div>
-                <div class='small-4 columns'>
-                    <label class="postfix"> Username</label>
-                </div>                  
-          </div>                           
-          <div class="large-12 row collapse">
-                <div class="small-8 columns"> 
-                     <input type="password" name="add_sys_pwd">
-                </div>
-                <div class='small-4 columns'>
-                    <label class="postfix"> Password</label>
-                </div>                  
-          </div>  
-          <div class="large-12 row collapse">
-                <div class="small-8 columns"> 
-                     <input type="password" name="add_sys_confirm_pwd">
-                </div>
-                <div class='small-4 columns'>
-                    <label class="postfix">Confirm Password</label>
-                </div>                  
-          </div>             
+                      
           <div class="large-12 row collapse">
                 <div class="small-8 columns"> 
                     <select name="add_sys_status">
@@ -140,16 +85,28 @@
              <table width='100%'id="cities_data">
                <tr>
                    
-                    <th>
-                        Email
+                   <th style="text-align: left;width: 60%;">
+                        Profile Name
                     </th>
-                    <th>
+                    <th style="width: 20%;">
                         Status
                     </th>
-                    <th>
+                    <th style="width: 20%;">
                         Action
                     </th>
                     
+             </tr>
+             <tr>
+                 <td style="text-align: left;">
+                     
+                 </td>
+                 <td>
+                     
+                 </td>
+                 <td>
+                     
+                 </td>
+                 
              </tr>
             </table>
              </div> 

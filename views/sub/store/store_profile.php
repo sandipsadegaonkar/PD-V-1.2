@@ -4,12 +4,12 @@
 <html>
     <head>
         <title> store  Profile </title>
-        <script type="text/javascript" src="../../../javascript/jquery-1.10.2.js"></script>
-         <script type="text/javascript" src="../../../javascript/jquery-1.10.1-min.js"></script>
-        <script type="text/javascript" src="../../../javascript/storeprofile.js"></script>
-        <script type="text/javascript" src="../../../javascript/foundation/foundation.js"></script>
-         <link href="../../../css/foundation_store.css" rel="stylesheet" type="text/css"/>
-       <link href="../../../css/foundation-icons.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="../javascript/jquery-1.10.2.js"></script>
+         <script type="text/javascript" src="../javascript/jquery-1.10.1-min.js"></script>
+        <script type="text/javascript" src="../javascript/storeprofile.js"></script>
+        <script type="text/javascript" src="../javascript/foundation/foundation.js"></script>
+         <link href="../css/foundation_store.css" rel="stylesheet" type="text/css"/>
+       <link href="../css/foundation-icons.css" rel="stylesheet" type="text/css"/>
     </head>
    <body>
                <div class="medium radius button callout" id='store_proflie' >
@@ -36,7 +36,14 @@
                                <input type="text" name="time_zone" id="store_profilt_name"></div>
                                <div class='small-3 columns'><label class="postfix">Profile Name</label></div>
                           </div>
-                            
+                              
+                              <div class="large-12 row collapse">
+                                  <div class="small-9 columns">
+                                      <input type="text" name="time_zone" id="store_profilt_name">
+                                  </div>
+                                    <div class='small-3 columns'><label class="postfix left"> Access permission</label></div>  
+                              </div>
+                           
                           <div class="large-12 row collapse">
                                 <div class="small-9 columns">
                                       <select name="store_profile_agency_list1" id="store_profile_status_list">

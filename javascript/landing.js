@@ -171,6 +171,7 @@ $('#udb').click(function(){
     $('#content_header').text(" > Utility >> Database Backup"); 
       
  });
+
  $('#ssp').click(function(){
     $('#content_page_body').slideDown("slow");
     $('#content_page_body').load('sub/store/store_profile.php');
@@ -185,6 +186,14 @@ $('#udb').click(function(){
     $('#content_header').text(" > System >> System User"); 
       
  });
+  $('#sysp').click(function(){
+    $('#content_page_body').slideDown("slow");
+    $('#content_page_body').load('sub/system/system_profile.php');
+    $('#content_page_body').css('display','block');
+    $('#content_header').text(" > System>> System Profile"); 
+      
+ });
+ 
  $('#ss').click(function(){
     $('#content_page_body').slideDown("slow");
     $('#content_page_body').load('sub/store/store_add.php');
