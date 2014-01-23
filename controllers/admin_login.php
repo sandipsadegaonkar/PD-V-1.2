@@ -1,6 +1,5 @@
 <?php
 session_start();
-$_SESSION['user_id']='';
 $con=  mysql_connect("localhost","root","");
 $user=$_REQUEST['user'];
 $pass=$_REQUEST['pass'];

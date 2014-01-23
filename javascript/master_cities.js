@@ -5,7 +5,7 @@ $(document).ready(function (){
 
         if(n === 0)
         {
-          $(".addcities_close").text("-");
+          $(".addcities_close").text(" -");
           n=1;
         }
         else
@@ -13,5 +13,6 @@ $(document).ready(function (){
           $(".addcities_close").text("+");
           n=0;
         }
-   });   
+   });  
+   
 });

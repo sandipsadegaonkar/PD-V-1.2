@@ -8,19 +8,22 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<title>PD1.2_Admin_Login</title>
+	
 <!--    <link rel="shortcut icon" href="images/Logo.jpg" type="image/x-icon"/>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>-->
-    <link href="css/login.css" rel="stylesheet" type="text/css"/>
+<link href="css/foundation.css" rel="stylesheet" type="text/css"/>
     <link href="css/foundation-icons.css" rel="stylesheet" type="text/css"/>
+    <!--<link href="css/foundation.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="javascript/foundation/foundation.js"></script>
+    
 <!--    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>-->
 <!--    <script type="text/javascript" src="javascript/login.js"></script>-->
     <!--<script type="text/javascript" src="javascript/jquery-1.10.1-min.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>-->
 </head>
 <body> 
-   <div class="panel">
+    
+   <div class="row" id="log">
         <br>
         <center><img src="images/icon.jpg" /></center>
         <br>
@@ -28,11 +31,13 @@ session_start();
         <p align="center" id="error" style="color:#9E0C0F"></p>
         <br>
         <center>
-        <div class="row">
+            <!--<form data-abide="ajax">-->
+        <div class="row" id="admin_login">
             <div class="large-4 medium-4">
         <div class="row collapse">
-    <div class="small-9 columns">
-        <input type="text" placeholder="Username" id="user"></input>
+    <div class="small-9 columns name-field">
+        <input type="text" placeholder="Username" id="user" required pattern="[a-zA-Z]+" name="user"></input>
+        
     </div>
     <div class="small-3 columns">
         <span class="postfix"><i class="fi-torso" style="font-size: 24px"></i></span>
@@ -41,8 +46,9 @@ session_start();
             </div>
             <div class="large-4 medium-4">
         <div class="row collapse">
-    <div class="small-9 columns">
-        <input type="password" placeholder="Password" id="pass"></input>
+    <div class="small-9 columns password-field">
+        <input type="password" placeholder="Password" id="pass" required pattern="[a-zA-Z]+" name="pass"></input>
+ 
     </div>
     <div class="small-3 columns">
         <span class="postfix"><div class="fi-key" style="font-size: 24px"></div>></span>
@@ -50,12 +56,14 @@ session_start();
         </div></div>
 <div class="large-4">
         <div class="row collapse">
-            <input type="checkbox" id="remember" value="Remember_me" /><span>&nbsp;Remember me on this computer</span>
+            <input type="checkbox" id="remember" value="Remember_me" name="remember"/><span>&nbsp;Remember me on this computer</span>
         </div></div>
             <div class='small radius button' id='reset'>Reset</div>
+            <!--<button type="reset" id='reset' class="small radius">Reset</button>-->
         <div class='small radius button' id='login'>Login</div>
-        
+        <!--<button type="submit" id='login' class="small radius">Login</button>-->
         </div>
+                <!--</form>-->
         </center>
         <br>
         <center><img src="images/line.jpg"/></center>
@@ -88,6 +96,7 @@ session_start();
         </div>
             
     </div>  
+    
    <br>	        
 </body>
 </html>

@@ -1,8 +1,7 @@
 
-$(document).ready(function(){
-                        
-                        $('#login').click(function(){
-                        var user=$('#user').val();
+function start()
+{
+                            var user=$('#user').val();
                         var pass=$('#pass').val();
                         var remember;
                         if($('#remember').is(":checked"))
@@ -13,10 +12,19 @@ $(document).ready(function(){
                                 {
                                     remember="no";                                    
                                }
+//$('#login_form')
+//  .on('invalid', function () {
+//    var invalid_fields = $(this).find('[data-invalid]');
+//    console.log(invalid_fields);
+//  })
+//  .on('valid', function () {
+//    console.log('valid!');
+//  
                         $.ajax({
                             url:'controllers/admin_login.php',
                             type:'GET',
                             data:{user:user,pass:pass,remember:remember},
+//                            data:"submit=1&user="+user+"&pass="+pass+"&remember="+remember,
                             success:function(data){
                                 if(data==='true')
                                 {
@@ -38,7 +46,17 @@ $(document).ready(function(){
                                     }
                             }
                         });
+}
+$(document).ready(function(){
+                        
+                        $('#login').click(function(){
+                            start();
+//                        });
                         });
+$('#admin_login').keypress(function (e){
+    if(e.which === 13)
+        start();
+});
                         
                         $('#reset').click(function(){
                                         $('#user').val("");
@@ -51,10 +69,23 @@ $(document).ready(function(){
                                         $("#error").text(" ");
                         });
                         
+
                         
 });
+//$(function()
+//    {
+//       var  testTextBox = $('#log');
+//        var code =null;
+//        testTextBox.keypress(function(e)
+//        {
+//            code= (e.keyCode ? e.keyCode : e.which);
+//            if (code == 13) alert('Enter key was pressed.');
+//            else
+//            e.preventDefault();
+//        });
+//
+//    });
 $(document).ready(function(){
-   
      $("#for").click(function (){
       $(".forget").slideToggle("slow");
       $(".f").text(" ");

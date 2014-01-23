@@ -121,10 +121,10 @@ $('#catalog_mc').click(function(){
                             type:'GET',
                             data:{},
                             success:function(result){
-                                    $('#content_page').slideDown("slow");
-                                    $('#content_page').load('sub/master_cities.php');
-                                    $('#content_page').css('display','block');
-                                    $('#content_header').text(" >> Catalog >> Master Cities");
+                                    $('#content_page_body').slideDown("slow");
+                                    $('#content_page_body').load('sub/catalog/master_cities.php');
+                                    $('#content_page_body').css('display','block');
+                                    $('#content_header').text(" > Catalog >> Master Cities");
                                   var data=$.parseJSON(result);
                                     //alert(data);
                                 //alert(data[0]['cityId']);
@@ -143,24 +143,46 @@ $('#catalog_mc').click(function(){
  
 });
 $('#catalog_ma').click(function(){ 
-    $('#content_page').slideDown("slow");
-      $('#content_page').load('sub/master_area.php');
-      $('#content_page').css('display','block');
-$('#content_header').text(" >> Catalog >> Master Area"); 
+    $('#content_page_body').slideDown("slow");
+      $('#content_page_body').load('sub/catalog/master_area.php');
+      $('#content_page_body').css('display','block');
+$('#content_header').text(" > Catalog >> Master Area"); 
 });
+
+$('#catalog_mb').click(function(){ 
+    $('#content_page_body').slideDown("slow");
+      $('#content_page_body').load('sub/catalog/master_brand.php');
+      $('#content_page_body').css('display','block');
+$('#content_header').text(" > Catalog >> Master Brand"); 
+});
+
 $('#udb').click(function(){
-    $('#content_page').slideDown("slow");
-    $('#content_page').load('sub/database_backup.php');
-    $('#content_page').css('display','block');
-    $('#content_header').text(" >> Utility >> Database Backup"); 
+    $('#content_page_body').slideDown("slow");
+    $('#content_page_body').load('sub/utility/database_backup.php');
+    $('#content_page_body').css('display','block');
+    $('#content_header').text(" > Utility >> Database Backup"); 
+      
+ });
+ $('#ss').click(function(){
+    $('#content_page_body').slideDown("slow");
+    $('#content_page_body').load('sub/store/store_add.php');
+    $('#content_page_body').css('display','block');
+    $('#content_header').text(" > Store >> Store"); 
+      
+ });
+ $("#store_su").click(function(){
+    $('#content_page_body').slideDown("slow");
+    $('#content_page_body').load('sub/store/store_user.php');
+    $('#content_page_body').css('display','block');
+    $('#content_header').text(" > Store >> Store user"); 
       
  });
 
 $('#content_close').click(function (){
   //$('#add_cities').slideUp();    
-    $('#content_page').slideUp();        
-//    $('#content_page').css('display','none');
-    $('#content_header').text(""); 
+    $('#content_page_body').slideUp();        
+//    $('#content_page_body').css('display','none');
+    $('#content_header').text(" "); 
 });
 });
 $(document).ready(function(){

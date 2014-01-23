@@ -1,15 +1,15 @@
 $(document).ready(function (){
           var n=0;
-   $("#add_area").click(function(){
-      $("#Master_addarea").slideToggle("slow");
+   $("#add_brand").click(function(){
+      $("#Master_addbrand").slideToggle("slow");
       if(n === 0)
       {
-          $(".addarea_close").text(" -");
+          $(".addbrand_close").text(" -");
           n=1;
       }
       else
       {
-          $(".addarea_close").text("+");
+          $(".addbrand_close").text("+");
           n=0;
       }
    });   
@@ -19,6 +19,6 @@ $(document).ready(function (){
 
 $(document).ready(function (){
 $('#content_close').click(function (){
-      $('#Master_addarea').slideUp();    
+      $('#Master_addbrand').slideUp();    
    });
 });
